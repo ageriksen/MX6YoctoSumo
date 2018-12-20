@@ -1,0 +1,26 @@
+
+-------------------------------------------
+Questions:
+Answer: Probably fine. older versions probably bad.
+    Proper linux version
+        kernel listed on variscite VAR-SOM-MX6 product page: https://www.variscite.com/products/system-on-module-som/cortex-a9/var-som-mx6-cpu-freescale-imx6/
+        latest release of Linux kernel is 4.15: https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes#Linux_kernel_4.15
+        latest documented supported ubuntu release is 17.04: https://www.yoctoproject.org/docs/latest/ref-manual/ref-manual.html#detailed-supported-distros
+        current linux version is 18.04.1
+        kernel readout from uname -r: 4.15.0-42-generic
+
+Answer: This is basically part of the challenge, and the reason for documentation.
+    Recommended initial reading of "quick start guide" seemingly not available for VAR-SOM-MX6 Yocto. Seemingly available for e.g. android, as well as other
+    VAR-SOM versions. Are these applicable?
+
+
+
+-------------------------------------------
+To Do:
+
+o read and reference DART-MX6-Variscite wiki: http://variwiki.com/index.php?title=DART-MX6
+o read and reference VAR-SOM-MX6 Yocto-Variscite sumo: http://variwiki.com/index.php?title=VAR-SOM-MX6_Yocto&release=RELEASE_SUMO_V1.1_VAR-SOM-MX6
+o read and reference HOWTO - Acquire Log Information: http://variwiki.com/index.php?title=HOWTO_Acquire_Log_Information
+
+o setup cross-reference or other section tracking: https://help.libreoffice.org/Writer/Cross-references
+

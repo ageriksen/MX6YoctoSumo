@@ -1,0 +1,161 @@
+\documentclass[10pt]{article}
+\listfiles               %  print all files needed to compile this document
+
+\usepackage{amsmath}
+\usepackage{xparse}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage[colorlinks=true,urlcolor=blue,citecolor=blue]{hyperref}
+\usepackage{color}
+\usepackage{physics}
+\usepackage{algorithm2e}
+\usepackage{algpseudocode}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable, booktabs, mathpazo}
+\usepackage{natbib}
+
+\pgfplotsset{compat=1.15}
+
+%\pgfplotstableset{
+%    every head row/.style={before row=\toprule \hline ,after row=\hline\hline \midrule},
+%    every last row/.style={after row=\hline \bottomrule},
+%    every first column/.style={
+%        column type/.add={|}{}
+%        },
+%    every last column/.style={
+%        column type/.add={}{|}
+%        },
+%}
+\pgfplotstableset{
+    every head row/.style={before row=\toprule \hline ,after row=\hline\hline \midrule},
+    every last row/.style={after row=\hline \bottomrule}
+}
+
+%\begin{figure}[hbtp]
+%\includegraphics[scale=0.4]{.pdf}
+%\caption{}
+%\label{fig:}
+%\end{figure}
+
+%\begin{tikzpicture}
+%    \begin{axis}[
+%            title= Earth-Sun system, Forward Euler integration,
+%            xlabel={$x$},
+%            ylabel={$y$},
+%        ]
+%        \addplot table {../runresults/earthEuler2body.dat}
+%    \end{axis}
+%\end{tikzpicture}
+
+\begin{document}
+
+\title{%
+    Report of setup of Variscite\\
+    \large
+    VAR-SOM-MX6 Yocto Sumo release
+    }
+
+\author{Anders Gjolme Eriksen}
+make: *** No targets specified and no makefile found.  Stop.
+\end{abstract}
+
+\section{First}
+
+    The \href{http://variwiki.com/index.php?title=VAR-SOM-MX6\_Yocto&release=RELEASE\_SUMO\_V1.1\_VAR-SOM-MX6}{VAR-SOM-MX6 Yocto Sumo release from Variscite}
+    holds has a guide to follow for installation, but in previous and current releases have not been trivial to follow. The aim of here is to clarify the
+    methods and to provide the necessary corrections made.
+
+\subsection{setup}
+
+    The recommended first reading is largely unneded from personal experience. At time of writing, it is unavailable. In addition, there is no "beginners guide"
+    to the Yocto release for VAR-SOM-MX6 that
+
+    %=========
+    Note: When initializing, the variviki does not list the folder "build\_x11". This will generally need to be added. This should be mentioned at relevant points, but
+    in case one slips through, it is worth noting.
+    %========
+
+%===========================================================================================================
+\section{VAR-SOM-MX6 - Yocto Sumo 2.5 based on FSL Community BSP 2.5 with 4.9.88\_2.0.0-ga Linux release}
+
+4.6) local conf customization
+    4.6.1) change download directory. -> implied already in directory /home/user/var-fslc-yocto/ at execution
+        make and set permision for a yocto download file:
+            \$ sudo mkdir /opt/yocto\_downloads
+            \$ sudo chmod 777 /opt/yocto\_downloads
+
+        change download path for the configuration file for yocto's build\_x11 setup -> the given link does not work. "function". You need to add the directory for the
+        build, making the addition /build\_x11/conf/local.conf. Thus
+        '$ sed -i 's/DL_DIR ?= "${BSPDIR}\/downloads/DL\_DIR = "\/opt\/yocto\_downloads/g' conf/local.conf' becomes
+        $ sed -i 's/DL_DIR ?= "${BSPDIR}\/downloads/DL\_DIR = "\/opt\/yocto\_downloads/g' build\_x11/conf/local.conf
+
+
+%===========================================================================================================
+\section{Yocto NAND Flash Burning}
+
+\subsection{5 installing Yocto binaries}
+    When accessing board on linux, minicom needed to disable flow control in order to make any input.
+
+    %-----------------------------------------------------------
+    \subsubsection{5.1 Images locations}
+    directory structure on SD card
+
+        /opt/images/
+        └── Yocto
+            ├── SPL-nand
+            ├── SPL-sd
+            ├── imx6dl-var-som-cap.dtb
+            ├── imx6dl-var-som-res.dtb
+            ├── imx6dl-var-som-solo-cap.dtb
+            ├── imx6dl-var-som-solo-res.dtb
+            ├── imx6dl-var-som-solo-vsc.dtb
+            ├── imx6dl-var-som-vsc.dtb
+            ├── imx6q-var-dart.dtb
+            ├── imx6q-var-som-cap.dtb
+            ├── imx6q-var-som-res.dtb
+            ├── imx6q-var-som-vsc.dtb
+            ├── imx6qp-var-som-cap.dtb
+            ├── imx6qp-var-som-res.dtb
+            ├── imx6qp-var-som-vsc.dtb
+            ├── rootfs.tar.gz
+            ├── rootfs\_128kbpeb.ubi
+            ├── rootfs\_256kbpeb.ubi
+            ├── u-boot.img-nand
+            ├── u-boot.img-sd
+            └── uImage
+        \subsubsection{5.1.1 preparing images for NAND flash }
+        with standard SD card setup, need to add necessary files. With the standard setup, filenames are not standard.
+        mounted on /media/rootfs. <- guide assumes this is files structure. pwd on minicom returns /home/root. Probably same function, but name will differ from
+        guide.
+
+        NOTE include minicom options and short intro.
+
+        Further on in the recipee, the call of sudo cp ${YOCTO\_IMGS\_PATH}/fsl-image-gui-var-som-mx6.ubi ${P2\_MOUNT\_DIR}/opt/images/Yocto/rootfs.ubi
+        lacks a designator of size in the filename. Appended \_128kbpeb to filename before .ubi.
+
+        on the board, run:
+            $ export YOCTO\_IMGS\_PATH=~/var-fslc-yocto/build\_x11/tmp/deploy/images/var-som-mx6
+            $ export P2\_MOUNT\_DIR=/media/rootfs/
+            $ sudo mkdir -p ${P2\_MOUNT\_DIR}/opt/images/Yocto/
+        On computer:
+            linux:
+                \$ sudo cp ${YOCTO\_IMGS\_PATH}/uImage ${P2\_MOUNT\_DIR}/opt/images/Yocto/
+            Device tree:
+                \$ sudo cp ${YOCTO\_IMGS\_PATH}/uImage-imx*.dtb ${P2\_MOUNT\_DIR}/opt/images/Yocto/
+            NAND images:
+                SPL:
+                    \$ sudo cp ${YOCTO\_IMGS\_PATH}/SPL-nand ${P2\_MOUNT\_DIR}/opt/images/Yocto/
+                U-Boot:
+                    \$ sudo cp ${YOCTO\_IMGS\_PATH}/u-boot.img-nand ${P2\_MOUNT\_DIR}/opt/images/Yocto/
+                File System: Here, there is a discrepancy with the name of the image. Need to apppend what seems like a memory stirng to name, so:
+                    "\$ sudo cp ${YOCTO\_IMGS\_PATH}/fsl-image-gui-var-som-mx6.ubi ${P2\_MOUNT\_DIR}/opt/images/Yocto/rootfs.ubi" becomes
+                    \$ sudo cp ${YOCTO\_IMGS\_PATH}/fsl-image-gui-var-som-mx6\_128kbpeb.ubi ${P2\_MOUNT\_DIR}/opt/images/Yocto/rootfs.ubi
+    %-----------------------------------------------------------
+    \subsubsection{5.2 Flashing scripts}
+
+
+
+
+%\bibliography{FULL PATH TO BIBLIOGRAPHY}
+\end{document}
