@@ -1,16 +1,48 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.18)  21 DEC 2018 16:18
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.27)  21 DEC 2018 22:34
+ restricted system commands enabled.
 **report.tex
 (./report.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 7 language(s) loaded.
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/anders/.texlive2017/texmf-var/luatex-cache/ge
+neric)(using read cache: /var/lib/texmf/luatex-cache/generic /home/anders/.texli
+ve2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/anders/.texlive2017/texmf-var/
+luatex-cache/generic/names.
+luaotfload | init : Loading fontloader ‚Äúfontloader-2017-02-11.lua‚Äù from kpse
+-resolved path ‚Äú/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2017-02-11.lua‚Äù.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version ‚Äú3.027‚Äù
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/anders/.texlive2017/texmf-var/
+luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.314 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-)
+luaotfload | db : Font names database loaded from /home/anders/.texlive2017/texm
+f-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/anders/.te
+xlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc))
 \c@part=\count79
 \c@section=\count80
 \c@subsection=\count81
@@ -22,8 +54,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
@@ -116,6 +147,7 @@ Package: expl3 2018/02/21 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/02/21 L3 programming layer (code)
+\ucharcat@table=\catcodetable5
 \c_max_int=\count107
 \l_tmpa_int=\count108
 \l_tmpb_int=\count109
@@ -186,37 +218,35 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \c__regex_cs_mode_int=\count156
 \l__regex_catcodes_int=\count157
 \l__regex_default_catcodes_int=\count158
-\c__regex_catcode_D_int=\count159
-\c__regex_catcode_S_int=\count160
-\c__regex_catcode_L_int=\count161
-\c__regex_catcode_O_int=\count162
-\c__regex_catcode_A_int=\count163
-\c__regex_all_catcodes_int=\count164
-\l__regex_show_lines_int=\count165
-\l__regex_min_state_int=\count166
-\l__regex_max_state_int=\count167
-\l__regex_left_state_int=\count168
-\l__regex_right_state_int=\count169
-\l__regex_capturing_group_int=\count170
-\l__regex_min_pos_int=\count171
-\l__regex_max_pos_int=\count172
-\l__regex_curr_pos_int=\count173
-\l__regex_start_pos_int=\count174
-\l__regex_success_pos_int=\count175
-\l__regex_curr_char_int=\count176
-\l__regex_curr_catcode_int=\count177
-\l__regex_last_char_int=\count178
-\l__regex_case_changed_char_int=\count179
-\l__regex_curr_state_int=\count180
-\l__regex_step_int=\count181
-\l__regex_min_active_int=\count182
-\l__regex_max_active_int=\count183
-\l__regex_replacement_csnames_int=\count184
-\l__regex_match_count_int=\count185
-\l__regex_min_submatch_int=\count186
-\l__regex_submatch_int=\count187
-\l__regex_zeroth_submatch_int=\count188
-\g__regex_trace_regex_int=\count189
+\c__regex_catcode_L_int=\count159
+\c__regex_catcode_O_int=\count160
+\c__regex_catcode_A_int=\count161
+\c__regex_all_catcodes_int=\count162
+\l__regex_show_lines_int=\count163
+\l__regex_min_state_int=\count164
+\l__regex_max_state_int=\count165
+\l__regex_left_state_int=\count166
+\l__regex_right_state_int=\count167
+\l__regex_capturing_group_int=\count168
+\l__regex_min_pos_int=\count169
+\l__regex_max_pos_int=\count170
+\l__regex_curr_pos_int=\count171
+\l__regex_start_pos_int=\count172
+\l__regex_success_pos_int=\count173
+\l__regex_curr_char_int=\count174
+\l__regex_curr_catcode_int=\count175
+\l__regex_last_char_int=\count176
+\l__regex_case_changed_char_int=\count177
+\l__regex_curr_state_int=\count178
+\l__regex_step_int=\count179
+\l__regex_min_active_int=\count180
+\l__regex_max_active_int=\count181
+\l__regex_replacement_csnames_int=\count182
+\l__regex_match_count_int=\count183
+\l__regex_min_submatch_int=\count184
+\l__regex_submatch_int=\count185
+\l__regex_zeroth_submatch_int=\count186
+\g__regex_trace_regex_int=\count187
 \c_empty_box=\box30
 \l_tmpa_box=\box31
 \l_tmpb_box=\box32
@@ -260,15 +290,36 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count190
+\l__driver_color_stack_int=\count188
 \l__driver_tmp_box=\box45
 ))
 Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count191
-\g__xparse_grabber_int=\count192
-\l__xparse_m_args_int=\count193
-\l__xparse_mandatory_args_int=\count194
-\l__xparse_v_nesting_int=\count195
+\l__xparse_current_arg_int=\count189
+\g__xparse_grabber_int=\count190
+\l__xparse_m_args_int=\count191
+\l__xparse_mandatory_args_int=\count192
+\l__xparse_v_nesting_int=\count193
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -282,11 +333,8 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
+Package graphics Info: Driver file: luatex.def on input line 99.
+)
 \Gin@req@height=\dimen147
 \Gin@req@width=\dimen148
 )
@@ -315,34 +363,32 @@ Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package ifluatex Info: LuaTeX detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks22
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -366,13 +412,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen151
-\Hy@linkcounter=\count196
-\Hy@pagecounter=\count197
+\Hy@linkcounter=\count194
+\Hy@pagecounter=\count195
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count198
+\Hy@SavedSpaceFactor=\count196
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -385,7 +431,7 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count199
+\c@Hy@tempcnt=\count197
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -393,7 +439,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen152
-\Fld@menulength=\count266
+\Fld@menulength=\count198
 \Field@Width=\dimen153
 \Fld@charsize=\dimen154
 Package hyperref Info: Hyper figures OFF on input line 6369.
@@ -405,35 +451,27 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count267
-\c@Item=\count268
-\c@Hfootnote=\count269
+\Hy@abspage=\count199
+\c@Item=\count266
+\c@Hfootnote=\count267
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (autodetected): hluatex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count270
-\c@bookmark@seq@number=\count271
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2018/02/06 v6.86b Hyperref driver for luaTeX
+\Fld@listcount=\count268
+\c@bookmark@seq@number=\count269
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
 )
 \Hy@SectionHShift=\skip54
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-)
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count272
+\c@AlgoLine=\count270
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -442,7 +480,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count273
+\c@checkoddpage=\count271
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -480,9 +518,9 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip71
 \algotitleheightruledefault=\skip72
 \algotitleheightrule=\skip73
-\c@algocfline=\count274
-\c@algocfproc=\count275
-\c@algocf=\count276
+\c@algocfline=\count272
+\c@algocfproc=\count273
+\c@algocf=\count274
 \algocf@algoframe=\box52
 \algocf@algobox=\box53
 )
@@ -493,15 +531,15 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count277
-\c@ALG@rem=\count278
-\c@ALG@nested=\count279
+\c@ALG@line=\count275
+\c@ALG@rem=\count276
+\c@ALG@nested=\count277
 \ALG@tlm=\skip74
 \ALG@thistlm=\skip75
-\c@ALG@Lnr=\count280
-\c@ALG@blocknr=\count281
-\c@ALG@storecount=\count282
-\c@ALG@tmpcounter=\count283
+\c@ALG@Lnr=\count278
+\c@ALG@blocknr=\count279
+\c@ALG@storecount=\count280
+\c@ALG@tmpcounter=\count281
 \ALG@tmplength=\skip76
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
@@ -513,7 +551,7 @@ Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks22
+\pgfutil@everybye=\toks23
 \pgfutil@tempdima=\dimen161
 \pgfutil@tempdimb=\dimen162
 
@@ -534,12 +572,12 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks25
+\pgfkeys@tmptoks=\toks26
 ))
 \pgf@x=\dimen163
 \pgf@y=\dimen164
@@ -551,20 +589,20 @@ ex
 \pgf@yc=\dimen170
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count284
-\c@pgf@countb=\count285
-\c@pgf@countc=\count286
-\c@pgf@countd=\count287
-\t@pgf@toka=\toks26
-\t@pgf@tokb=\toks27
-\t@pgf@tokc=\toks28
+\c@pgf@counta=\count282
+\c@pgf@countb=\count283
+\c@pgf@countc=\count284
+\c@pgf@countd=\count285
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-luatex.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2014/10/11  (rcs-revision 1.35)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
 f
@@ -573,30 +611,13 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count288
-\pgfsyssoftpath@bigbuffer@items=\count289
+\pgfsyssoftpath@smallbuffer@items=\count286
+\pgfsyssoftpath@bigbuffer@items=\count287
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 709.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
+))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
@@ -605,11 +626,11 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen171
-\pgfmath@count=\count290
+\pgfmath@count=\count288
 \pgfmath@box=\box55
-\pgfmath@toks=\toks29
-\pgfmath@stack@operand=\toks30
-\pgfmath@stack@operation=\toks31
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -629,7 +650,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count291
+\c@pgfmathroundto@lastzeros=\count289
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
@@ -667,7 +688,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box56
 \pgf@hbox=\box57
 \pgf@layerbox@main=\box58
-\pgf@picture@serial@count=\count292
+\pgf@picture@serial@count=\count290
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -700,7 +721,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen195
-\pgf@sys@shading@range@num=\count293
+\pgf@sys@shading@range@num=\count291
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -748,8 +769,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen198
 \pgffor@skip=\dimen199
-\pgffor@stack=\toks32
-\pgffor@toks=\toks33
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -757,7 +778,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count294
+\pgf@plot@mark@count=\count292
 \pgfplotmarksize=\dimen256
 )
 \tikz@lastx=\dimen257
@@ -770,18 +791,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box62
 \tikz@tempbox=\box63
 \tikz@tempbox@bg=\box64
-\tikztreelevel=\count295
-\tikznumberofchildren=\count296
-\tikznumberofcurrentchild=\count297
-\tikz@fig@count=\count298
+\tikztreelevel=\count293
+\tikznumberofchildren=\count294
+\tikznumberofcurrentchild=\count295
+\tikz@fig@count=\count296
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count299
-\pgfmatrixcurrentcolumn=\count300
-\pgf@matrix@numberofcolumns=\count301
+\pgfmatrixcurrentrow=\count297
+\pgfmatrixcurrentcolumn=\count298
+\pgf@matrix@numberofcolumns=\count299
 )
-\tikz@expandcount=\count302
+\tikz@expandcount=\count300
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -789,12 +810,14 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks34
-\t@pgfplots@tokb=\toks35
-\t@pgfplots@tokc=\toks36
+Package pgfplots info on input line 124: Initializing with LUA version Lua 5.2
+\pgfplots@luabackend@table=\catcodetable6
+\t@pgfplots@toka=\toks35
+\t@pgfplots@tokb=\toks36
+\t@pgfplots@tokc=\toks37
 \pgfplots@tmpa=\dimen263
-\c@pgfplots@coordindex=\count303
-\c@pgfplots@scanlineindex=\count304
+\c@pgfplots@coordindex=\count301
+\c@pgfplots@scanlineindex=\count302
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -810,23 +833,33 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 gfsupp_pgflibraryfpu.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count305
-))
+\c@pgfmathroundto@lastzeros=\count303
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/luamath/pgflibraryluam
+ath.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryluamath.code.tex)
+Package pgfplots info on input line 274: luamath library shipped with pgf 3.0.1a
+ is outdated; using a substitute shipped with pgfplots
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+Package pgfplots info on input line 82: Found new luatex: initializing lua comma
+nds instead of write18 (shell-escape)
+
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
 tructure.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count306
+\c@pgfplotsarray@tmp=\count304
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count307
-\t@pgfplotstable@a=\toks37
+\c@pgfplotstable@counta=\count305
+\t@pgfplotstable@a=\toks38
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
 .code.tex)
@@ -838,10 +871,10 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count308
+\c@pgfplotslibrarysurf@no=\count306
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
-shading.pgfsys-pdftex.def)))
+shading.pgfsys-luatex.def)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
 tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
@@ -870,7 +903,7 @@ e.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen266
 \pgfdecoratedinputsegmentremainingdistance=\dimen267
 \pgf@decorate@distancetomove=\dimen268
-\pgf@decorate@repeatstate=\count309
+\pgf@decorate@repeatstate=\count307
 \pgfdecorationsegmentamplitude=\dimen269
 \pgfdecorationsegmentlength=\dimen270
 )
@@ -884,7 +917,7 @@ decorations.pathmorphing.code.tex))
 zlibrarydecorations.pathreplacing.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count310
+\pgfplots@numplots=\count308
 \pgfplots@xmin@reg=\dimen271
 \pgfplots@xmax@reg=\dimen272
 \pgfplots@ymin@reg=\dimen273
@@ -901,8 +934,8 @@ de.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplotstable 2017/06/05 v1.15 Table typesetting and Pretty-printing (
-1.15)
+Package: pgfplotstable 2017/06/05 v1.15 Table typesetting and Pretty-printing (1
+.15)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code
 .tex
@@ -919,12 +952,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen284
 \cmidrulekern=\dimen285
 \defaultaddspace=\dimen286
-\@cmidla=\count311
-\@cmidlb=\count312
+\@cmidla=\count309
+\@cmidlb=\count310
 \@aboverulesep=\dimen287
 \@belowrulesep=\dimen288
-\@thisruleclass=\count313
-\@lastruleclass=\count314
+\@thisruleclass=\count311
+\@lastruleclass=\count312
 \@thisrulewidth=\dimen289
 ) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
@@ -935,64 +968,67 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip77
 \bibsep=\skip78
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count315
+\c@NAT@ctr=\count313
 )
-(latex.out/report.aux)
-\openout1 = `report.aux'.
+(./latex.out/report.aux)
+\openout1 = report.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Try loading font information for TU+ppl on input line 69.
+LaTeX Font Info:    No file TUppl.fd. on input line 69.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
-File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
-)
-\c@lstlisting=\count316
 
+LaTeX Font Warning: Font shape `TU/ppl/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 69.
+
+\c@lstlisting=\count314
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
+\scratchcounter=\count315
 \scratchdimen=\dimen290
 \scratchbox=\box66
-\nofMPsegments=\count318
-\nofMParguments=\count319
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count320
+\nofMPsegments=\count316
+\nofMParguments=\count317
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count318
 \MPscratchDim=\dimen291
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
-\everyMPtoPDFconversion=\toks39
+\MPnumerator=\count319
+\makeMPintoPDFobject=\count320
+\everyMPtoPDFconversion=\toks40
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
 ))
 \AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring ON on input line 62.
+Package hyperref Info: Link coloring ON on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1000,26 +1036,33 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count323
+\c@section@level=\count321
 )
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
+LaTeX Info: Redefining \ref on input line 69.
+LaTeX Info: Redefining \pageref on input line 69.
+LaTeX Info: Redefining \nameref on input line 69.
 
-(latex.out/report.out) (latex.out/report.out)
+(./latex.out/report.out) (./latex.out/report.out)
 \@outlinefile=\write4
-\openout4 = `report.out'.
 
+\openout4 = report.out
 
 ABD: EveryShipout initializing macros
-Package pgfplots notification 'compat/show suggested version=true': document ha
-s been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
+Package pgfplots notification 'compat/show suggested version=true': document has
+ been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 72.
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 78.
+(load luc: /home/anders/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lm
+roman12-regular.luc)
+
+LaTeX Font Warning: Font shape `TU/ppl/bx/n' undefined
+(Font)              using `TU/ppl/m/n' instead on input line 79.
+
 (./inputs/sourceYocto/demoGUI.txt
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
 LaTeX Font Info:    Try loading font information for OML+zplm on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
@@ -1039,778 +1082,224 @@ LaTeX Font Info:    Try loading font information for OT1+zplm on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-Overfull \hbox (69.00421pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
+)) [1
 
-)
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 109.
-
-Overfull \hbox (5.89586pt too wide) in paragraph at lines 110--112
-\OT1/ppl/m/n/10 It is im-plied al-ready in di-rec-tory /home/user/var-fslc-yoct
-o/ at ex-e-cu-tion make
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
-
- []
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./inputs/sourceYocto/downloadDir.txt
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 4.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
-)
-Overfull \hbox (303.00659pt too wide) in paragraph at lines 4--116
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][] 
- []
-
-
-Overfull \hbox (0.9465pt too wide) in paragraph at lines 133--137
-[]\OT1/ppl/m/n/10 Replace "sdX" with the right de-vice name. This can be ob-tai
-ned by "dmesg"
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--140
-
- []
-
-
-Overfull \hbox (11.74683pt too wide) in paragraph at lines 152--161
-[]\OT1/ppl/m/n/10 $ cd  /var-fslc-yocto $ sudo MACHINE=var-som-mx6 sources/meta
--variscite-
- []
-
-
-Overfull \hbox (17.52617pt too wide) in paragraph at lines 152--161
-\OT1/ppl/m/n/10 fslc/scripts/var[]mk[]yocto[]sdcard/var-create-yocto-sdcard.sh 
-<op-tions> /de-v/sdX
- []
-
-
-Overfull \hbox (112.80417pt too wide) in paragraph at lines 152--161
-\OT1/ppl/m/n/10 the SD card -r Se-lect al-ter-na-tive rootfs for re-cov-ery im-
-ages (de-fault: build[]x11/tmp/deploy/images/var-
- []
-
-[2] (./outputs/sourceYocto/relevantPartitionInfo.txt) [3]
-(./inputs/imagePrepNANDFlash/setup.txt
-Overfull \hbox (141.00494pt too wide) in paragraph at lines 1--2
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) (./inputs/imagePrepNANDFlash/linux.txt)
-Overfull \hbox (69.00421pt too wide) in paragraph at lines 1--207
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-(./inputs/imagePrepNANDFlash/deviceTree.txt)
-Overfull \hbox (123.00476pt too wide) in paragraph at lines 1--211
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-(./inputs/imagePrepNANDFlash/NANDImages.txt
-Overfull \hbox (81.00433pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (123.00476pt too wide) in paragraph at lines 5--7
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-Overfull \hbox (267.00623pt too wide) in paragraph at lines 8--215
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-] 
- []
-
-(./outputs/sourceYocto/directoryStructure.txt
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
- [4]
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no î in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-)
-Overfull \hbox (18.0171pt too wide) in paragraph at lines 237--239
-\OML/zplm/m/it/10 image \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 gui \OMS/zplm/m/
-n/10 ^^@ \OML/zplm/m/it/10 var \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 som \OMS/
-zplm/m/n/10 ^^@ \OML/zplm/m/it/10 mx\OT1/ppl/m/n/10 6.\OML/zplm/m/it/10 ubi$\OT
-1/ppl/m/n/10 P2[]MOUNT[]DIR/opt/images/Yocto/rootfs.ubi
- []
-
-
-Overfull \hbox (149.13554pt too wide) in paragraph at lines 240--258
-[]\OT1/ppl/m/n/10 on the board, run: $\OML/zplm/m/it/10 exportYOCTO[]IMGS[]PATH
- \OT1/zplm/m/n/10 =  []/\OML/zplm/m/it/10 var \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/
-it/10 fslc \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 yocto\OT1/zplm/m/n/10 /\OML/z
-plm/m/it/10 build[]x\OT1/ppl/m/n/10 11\OT1/zplm/m/n/10 /\OML/zplm/m/it/10 tmp\O
-T1/zplm/m/n/10 /\OML/zplm/m/it/10 deploy\OT1/zplm/m/n/10 /\OML/zplm/m/it/10 ima
-ges\OT1/zplm/m/n/10 /\OML/zplm/m/it/10 var \OMS/zplm/m/n/10 ^^@
- []
-
-
-Overfull \hbox (72.74376pt too wide) in paragraph at lines 240--258
-\OT1/ppl/m/n/10 ex-port P2[]MOUNT[]DIR=/media/rootfs/ $\OML/zplm/m/it/10 sudomk
-dir \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 p$\OT1/ppl/m/n/10 P2[]MOUNT[]DIR/opt
-/images/Yocto/
- []
-
-
-Overfull \hbox (98.54631pt too wide) in paragraph at lines 240--258
-\OT1/ppl/m/n/10 On com-puter: linux: $ sudo cp $[]\OT1/zplm/m/n/10 /\OML/zplm/m
-/it/10 uImage$\OT1/ppl/m/n/10 P2[]MOUNT[]DIR/opt/images/Yocto/
- []
-
-
-Overfull \hbox (113.0515pt too wide) in paragraph at lines 240--258
-\OT1/ppl/m/n/10 De-vice tree: $ sudo cp $[]\OT1/zplm/m/n/10 /\OML/zplm/m/it/10 
-uImage \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 imx \OMS/zplm/m/n/10 ^^C \OT1/ppl
-/m/n/10 .\OML/zplm/m/it/10 dtb$\OT1/ppl/m/n/10 P2[]MOUNT[]DIR/opt/images/Yocto/
-
- []
-
-
-Overfull \hbox (117.77394pt too wide) in paragraph at lines 240--258
-\OT1/ppl/m/n/10 NAND im-ages: SPL: $ sudo cp $[]\OT1/zplm/m/n/10 /\OML/zplm/m/i
-t/10 SPL \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 nand$\OT1/ppl/m/n/10 P2[]MOUNT[
-]DIR/opt/images/Yocto/
- []
-
-
-Overfull \hbox (97.53189pt too wide) in paragraph at lines 240--258
-\OT1/ppl/m/n/10 U-Boot: $ sudo cp $[]\OT1/zplm/m/n/10 /\OML/zplm/m/it/10 u \OMS
-/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 boot\OT1/ppl/m/n/10 .\OML/zplm/m/it/10 img \
-OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 nand$\OT1/ppl/m/n/10 P2[]MOUNT[]DIR/opt/i
-mages/Yocto/
- []
-
-
-Overfull \hbox (72.90558pt too wide) in paragraph at lines 240--258
-\OT1/ppl/m/n/10 app-pend what seems like a mem-ory stirng to name, so: "$ sudo 
-cp $[]\OT1/zplm/m/n/10 /\OML/zplm/m/it/10 fsl \OMS/zplm/m/n/10 ^^@
- []
-
-
-Overfull \hbox (23.0171pt too wide) in paragraph at lines 240--258
-\OML/zplm/m/it/10 image \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 gui \OMS/zplm/m/
-n/10 ^^@ \OML/zplm/m/it/10 var \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 som \OMS/
-zplm/m/n/10 ^^@ \OML/zplm/m/it/10 mx\OT1/ppl/m/n/10 6.\OML/zplm/m/it/10 ubi$\OT
-1/ppl/m/n/10 P2[]MOUNT[]DIR/opt/images/Yocto/rootfs.ubi"
- []
-
-
-Overfull \hbox (0.78409pt too wide) in paragraph at lines 269--269
-[]\OT1/ppl/b/n/14.4 Yocto toolchain in-stal-la-tion for out of Yocto builds 
- []
-
-
-Overfull \hbox (4.01541pt too wide) in paragraph at lines 271--273
-\OT1/ppl/m/n/10 A full Yocto Open-Em-bed-ded en-vi-ron-ment to gen-er-ate the t
-oolchain. This means
- []
-
-[5] (./inputs/toolChain/build.txt
-Overfull \hbox (69.00421pt too wide) in paragraph at lines 2--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./inputs/sourceYocto/down
+loadDir.txt)
+(./inputs/sourceYocto/prebuiltYocto.text) [2] (./inputs/sourceYocto/SDCard.txt
+Overfull \hbox (3.07085pt too wide) in paragraph at lines 4--5
+[][][][] 
  []
 
 )
 
-LaTeX Warning: Reference `app:bitbakeToolChainIDESupport' on page 6 undefined o
-n input line 280.
+LaTeX Warning: Reference `app:extendedSDcard' on page 3 undefined on input line 
+154.
+
+[3] (./outputs/sourceYocto/relevantPartitionInfo.txt)
+(./outputs/sourceYocto/imageLocations.txt [4
+Missing character: There is no ‚îî (U+2514) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+])
+(./inputs/imagePrepNANDFlash/setup.txt) (./inputs/imagePrepNANDFlash/linux.txt) (./inputs/imagePrepNANDFlash/deviceTree.txt)
+(./inputs/imagePrepNANDFlash/NANDImages.txt)
+(./outputs/sourceYocto/directoryStructure.txt [5
+Missing character: There is no ‚îî (U+2514) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+])
+(./inputs/toolChain/build.txt [6
+Missing character: There is no ‚îî (U+2514) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îú (U+251C) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îî (U+2514) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no ‚îÄ (U+2500) in font [lmroman10-regular]:+tlig;!
+])
+
+LaTeX Warning: Reference `app:bitbakeToolChainIDESupport' on page 7 undefined on
+ input line 243.
 
 
-LaTeX Warning: Reference `app:toolchainSDK' on page 6 undefined on input line 2
-86.
+LaTeX Warning: Reference `app:toolchainSDK' on page 7 undefined on input line 24
+9.
 
 (./outputs/sourceYocto/bitbake_image_output.txt
-Overfull \hbox (891.01257pt too wide) in paragraph at lines 2--3
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (717.0108pt too wide) in paragraph at lines 3--4
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (291.00647pt too wide) in paragraph at lines 4--5
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 15--16
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[6]
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 18--19
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 20--21
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 21--22
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (93.00446pt too wide) in paragraph at lines 22--23
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (81.00433pt too wide) in paragraph at lines 23--24
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 24--25
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 27--28
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 28--29
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 29--30
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 30--32
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (717.0108pt too wide) in paragraph at lines 32--33
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (243.00598pt too wide) in paragraph at lines 35--36
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][] 
- []
-
-) (./outputs/toolChain/bitbakeMetaIdeSupport.txt
-Overfull \hbox (891.01257pt too wide) in paragraph at lines 2--3
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (717.0108pt too wide) in paragraph at lines 3--4
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (291.00647pt too wide) in paragraph at lines 4--5
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 15--16
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 18--19
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 20--21
-[][][][][][][][][][][][][][][][] 
+Overfull \hbox (539.0761pt too wide) in paragraph at lines 3--4
+[][] 
  []
 
 [7]
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 21--22
-[][][][][][][][][][][][][][][][] 
+Overfull \hbox (521.07591pt too wide) in paragraph at lines 32--33
+[][] 
  []
 
-
-Overfull \hbox (93.00446pt too wide) in paragraph at lines 22--23
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (81.00433pt too wide) in paragraph at lines 23--24
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 24--25
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 27--28
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 28--29
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 29--30
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 30--32
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (717.0108pt too wide) in paragraph at lines 32--33
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (243.00598pt too wide) in paragraph at lines 35--36
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][] 
- []
-
-) (./outputs/toolChain/bitbakeToolChain.txt
-Overfull \hbox (891.01257pt too wide) in paragraph at lines 2--3
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (717.0108pt too wide) in paragraph at lines 3--4
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (717.0108pt too wide) in paragraph at lines 5--6
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (291.00647pt too wide) in paragraph at lines 6--7
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 17--18
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 20--21
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 22--23
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 23--24
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (93.00446pt too wide) in paragraph at lines 24--25
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (81.00433pt too wide) in paragraph at lines 25--26
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 26--27
-[][][][][][][][][][][][][][][][] 
+) (./outputs/toolChain/bitbakeMetaIdeSupport.txt
+Overfull \hbox (539.0761pt too wide) in paragraph at lines 3--4
+[][] 
  []
 
 [8]
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 29--30
-[][][][][][][][][][][][][][][][] 
+Overfull \hbox (521.07591pt too wide) in paragraph at lines 32--33
+[][] 
+ []
+
+[9]) (./outputs/toolChain/bitbakeToolChain.txt
+Overfull \hbox (551.07622pt too wide) in paragraph at lines 3--4
+[][] 
  []
 
 
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 30--31
-[][][][][][][][][][][][][][][][] 
+Overfull \hbox (539.0761pt too wide) in paragraph at lines 5--6
+[][] 
+ []
+
+[10]
+Overfull \hbox (521.07591pt too wide) in paragraph at lines 34--35
+[][] 
+ []
+
+[11]) (./outputs/toolChain/bitbakeSDKBuild.txt
+Overfull \hbox (551.07622pt too wide) in paragraph at lines 3--4
+[][] 
  []
 
 
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 31--32
-[][][][][][][][][][][][][][][][] 
+Overfull \hbox (539.0761pt too wide) in paragraph at lines 5--6
+[][] 
  []
 
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 32--34
-[][][][][][][][][][][][][][][][][][] 
+[12]
+Overfull \hbox (521.07591pt too wide) in paragraph at lines 34--35
+[][] 
  []
 
-
-Overfull \hbox (717.0108pt too wide) in paragraph at lines 34--35
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (351.00708pt too wide) in paragraph at lines 37--38
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (741.01105pt too wide) in paragraph at lines 39--40
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][] 
- []
-
-
-Overfull \hbox (711.01074pt too wide) in paragraph at lines 40--41
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (627.00989pt too wide) in paragraph at lines 41--42
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (1221.01593pt too wide) in paragraph at lines 42--43
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (243.00598pt too wide) in paragraph at lines 43--44
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][] 
- []
-
-) (./outputs/toolChain/bitbakeSDKBuild.txt
-Overfull \hbox (891.01257pt too wide) in paragraph at lines 2--3
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (717.0108pt too wide) in paragraph at lines 3--4
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (717.0108pt too wide) in paragraph at lines 5--6
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (291.00647pt too wide) in paragraph at lines 6--7
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 17--18
-[][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 20--21
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 22--23
-[][][][][][][][][][][][][][][][] 
- []
-
-[9]
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 23--24
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (93.00446pt too wide) in paragraph at lines 24--25
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (81.00433pt too wide) in paragraph at lines 25--26
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 26--27
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 29--30
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 30--31
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 31--32
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (75.00427pt too wide) in paragraph at lines 32--34
-[][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (717.0108pt too wide) in paragraph at lines 34--35
-[][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (1185.01556pt too wide) in paragraph at lines 37--38
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (243.00598pt too wide) in paragraph at lines 38--39
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][] 
- []
-
-) [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
- (latex.out/report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
+) [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
+ (./latex.out/report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
 
 
  *File List*
@@ -1829,11 +1318,13 @@ listings.cfg    2015/06/04 1.6 listings configuration
    expl3.sty    2018/02/21 L3 programming layer (loader) 
 expl3-code.tex    2018/02/21 L3 programming layer 
 l3pdfmode.def    2017/03/18 v L3 Experimental driver: PDF mode
+  xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+  luatex.def    2018/01/08 v1.0l Graphics/color driver for luatex
 graphicx.sty    2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 graphics.sty    2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
     trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
 graphics.cfg    2016/06/04 v1.11 sample graphics configuration
-  pdftex.def    2018/01/08 v1.0l Graphics/color driver for pdftex
  dcolumn.sty    2014/10/28 v1.06 decimal alignment package (DPC)
    array.sty    2016/10/06 v2.4d Tabular extension package (FMi)
       bm.sty    2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
@@ -1850,6 +1341,7 @@ ifluatex.sty    2016/05/16 v1.4 Provides the ifluatex switch (HO)
 etexcmds.sty    2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 kvsetkeys.sty    2016/05/16 v1.17 Key value parser (HO)
 kvdefinekeys.sty    2016/05/16 v1.4 Define keys (HO)
+luatex-loader.sty    2016/05/16 v0.6 Lua module loader (HO)
 pdftexcmds.sty    2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
 pdfescape.sty    2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 bigintcalc.sty    2016/05/16 v1.4 Expandable calculations on big integers (HO)
@@ -1868,10 +1360,8 @@ kvoptions.sty    2016/05/16 v3.12 Key value format for package options (HO)
   pd1enc.def    2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
      url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
- hpdftex.def    2018/02/06 v6.86b Hyperref driver for pdfTeX
+ hluatex.def    2018/02/06 v6.86b Hyperref driver for luaTeX
 rerunfilecheck.sty    2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-   color.sty    1999/02/16
-   color.cfg    2016/01/02 v1.6 sample color configuration
 algorithm2e.sty    2017/07/18 v5.2 algorithms environments
   ifthen.sty    2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ifoddpage.sty    2016/04/23 v1.1 Conditionals for odd/even page detection
@@ -1890,8 +1380,6 @@ everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
   pgfsys.code.tex
 pgfsyssoftpath.code.tex    2013/09/09  (rcs-revision 1.9)
 pgfsysprotocol.code.tex    2006/10/16  (rcs-revision 1.4)
-  xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
-   color.cfg    2016/01/02 v1.6 sample color configuration
  pgfcore.code.tex
 pgfcomp-version-0-65.sty    2007/07/03 v3.0.1a (rcs-revision 1.7)
 pgfcomp-version-1-18.sty    2007/07/23 v3.0.1a (rcs-revision 1.1)
@@ -1902,12 +1390,11 @@ pgfcomp-version-1-18.sty    2007/07/23 v3.0.1a (rcs-revision 1.1)
  pgfmath.code.tex
   pgffor.code.tex
     tikz.code.tex
-pgfplotstable.sty    2017/06/05 v1.15 Table typesetting and Pretty-printing (1.
-15)
+pgfplotstable.sty    2017/06/05 v1.15 Table typesetting and Pretty-printing (1.1
+5)
 booktabs.sty    2016/04/27 v1.618033 publication quality tables
 mathpazo.sty    2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
   natbib.sty    2010/09/13 8.31b (PWD, AO)
-  ot1ppl.fd    2001/06/04 font definitions for OT1/ppl.
 supp-pdf.mkii
 epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
   grfext.sty    2016/05/16 v1.2 Manage graphics extensions (HO)
@@ -1917,13 +1404,16 @@ gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
   report.out
   report.out
 ./inputs/sourceYocto/demoGUI.txt
+  ot1ppl.fd    2001/06/04 font definitions for OT1/ppl.
  omlzplm.fd    2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
  omszplm.fd    2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
  omxzplm.fd    2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
  ot1zplm.fd    2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 ./inputs/sourceYocto/downloadDir.txt
-  omsppl.fd    
+inputs/sourceYocto/prebuiltYocto.text
+inputs/sourceYocto/SDCard.txt
 ./outputs/sourceYocto/relevantPartitionInfo.txt
+./outputs/sourceYocto/imageLocations.txt
 ./inputs/imagePrepNANDFlash/setup.txt
 ./inputs/imagePrepNANDFlash/linux.txt
 ./inputs/imagePrepNANDFlash/deviceTree.txt
@@ -1936,32 +1426,36 @@ gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
 ./outputs/toolChain/bitbakeSDKBuild.txt
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
- ) 
-Here is how much of TeX's memory you used:
- 37592 strings out of 494847
- 866759 string characters out of 6179079
- 1084998 words of memory out of 5000000
- 40111 multiletter control sequences out of 15000+600000
- 545291 words of font info for 61 fonts, out of 8000000 for 9000
- 59 hyphenation exceptions out of 8191
- 69i,6n,119p,10378b,1603s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
-/uplri8a.pfb>
-Output written on latex.out/report.pdf (10 pages, 118033 bytes).
-PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
- 480 compressed objects within 5 object streams
- 272 named destinations out of 1000 (max. 500000)
- 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 38552 strings out of 494480
+ 195342,1144653 words of node,token memory allocated
+ 563 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 6 attribute, 73 glue_spec, 6 attrib
+ute_list, 1 write nodes
+   avail lists: 2:3639,3:127,4:37,5:6553,6:1730,7:5998,8:3927,9:6991,10:29,11:41
+2
+ 41096 multiletter control sequences out of 65536+600000
+ 84 fonts using 9300335 bytes
+ 69i,6n,119p,747b,747s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/tex
+mf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on report.pdf (13 pages, 81039 bytes).
+
+PDF statistics: 521 PDF objects out of 1000 (max. 8388607)
+ 494 compressed objects within 5 object streams
+ 317 named destinations out of 1000 (max. 131072)
+ 288 words of extra memory for PDF output out of 10000 (max. 100000000)
 

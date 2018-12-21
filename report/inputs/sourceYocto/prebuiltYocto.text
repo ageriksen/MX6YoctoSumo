@@ -1,0 +1,5 @@
+$ sudo umount /dev/sdX*
+
+$ cd ~/var-fslc-yocto/build_x11
+
+$ zcat tmp/deploy/images/var-som-mx6/fsl-image-gui-var-som-mx6.wic.gz | sudo dd of=/dev/sdX bs=1M && sync

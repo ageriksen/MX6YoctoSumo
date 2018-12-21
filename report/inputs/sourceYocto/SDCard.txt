@@ -1,0 +1,9 @@
+$ cd ~/var-fslc-yocto
+$ sudo MACHINE=var-som-mx6 sources/meta-variscite-fslc/scripts/var\_mk\_yocto\_sdcard/var-create-yocto-sdcard.sh <options> /dev/sdX
+
+=======================================================
+options:
+-h            Display help message
+-s            Only show partition sizes to be written, without actually write them
+-a            Automatically set the rootfs partition size to fill the SD card
+-r            Select alternative rootfs for recovery images (default: build\_x11/tmp/deploy/images/var-som-mx6/fsl-image-gui-var-som-mx6.*)
