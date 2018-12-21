@@ -1,0 +1,5 @@
+$ cd ~/var-fslc-yocto
+$ MACHINE=var-som-mx6 DISTRO=fslc-x11 . ./setup-environment build_x11
+
+$ bitbake meta-ide-support
+$ bitbake meta-toolchain

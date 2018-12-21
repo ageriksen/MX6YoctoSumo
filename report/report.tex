@@ -2,13 +2,14 @@
 \listfiles               %  print all files needed to compile this document
 
 \usepackage{amsmath}
+\usepackage{listings}
 \usepackage{xparse}
 \usepackage{graphicx}
 \usepackage{dcolumn}
 \usepackage{bm}
 \usepackage[colorlinks=true,urlcolor=blue,citecolor=blue]{hyperref}
 \usepackage{color}
-\usepackage{physics}
+%\usepackage{physics}
 \usepackage{algorithm2e}
 \usepackage{algpseudocode}
 \usepackage{pgfplots}
@@ -16,6 +17,7 @@
 \usepackage{natbib}
 
 \pgfplotsset{compat=1.15}
+\lstset{language=}
 
 %\pgfplotstableset{
 %    every head row/.style={before row=\toprule \hline ,after row=\hline\hline \midrule},
@@ -48,21 +50,28 @@
 %    \end{axis}
 %\end{tikzpicture}
 
+%=============================================================================================================
+% When writing, all code calls and similar have been placed in separate .txt files, so as to ease change and
+% reference for later. Change input in one of the related files and recompile to update.
+% to compile:
+% $ ~/latexrun/latexrun report.tex
+% latexrun github: https://github.com/aclements/latexrun
+% Then open with your favourite pdf reader.
+%=============================================================================================================
+
 \begin{document}
 
 \title{%
-    Report of setup of Variscite\\
+    Report of setup of Variscite
     \large
     VAR-SOM-MX6 Yocto Sumo release
     }
 
 \author{Anders Gjolme Eriksen}
-make: *** No targets specified and no makefile found.  Stop.
-\end{abstract}
 
-\section{First}
+\section{introduction}
 
-    The \href{http://variwiki.com/index.php?title=VAR-SOM-MX6\_Yocto&release=RELEASE\_SUMO\_V1.1\_VAR-SOM-MX6}{VAR-SOM-MX6 Yocto Sumo release from Variscite}
+    The \href{http://variwiki.com/index.php?title=VAR-SOM-MX6\_Yocto\&release=RELEASE\_SUMO\_V1.1\_VAR-SOM-MX6}{VAR-SOM-MX6 Yocto Sumo release from Variscite}
     holds has a guide to follow for installation, but in previous and current releases have not been trivial to follow. The aim of here is to clarify the
     methods and to provide the necessary corrections made.
 
@@ -73,58 +82,152 @@ make: *** No targets specified and no makefile found.  Stop.
 
     %=========
     Note: When initializing, the variviki does not list the folder "build\_x11". This will generally need to be added. This should be mentioned at relevant points, but
-    in case one slips through, it is worth noting.
+    in case one slips through, it is worth noting. Another frequent issue, is when running programs from current folder, there is a need to insert "./" infront of the
+    path.
     %========
+
 
 %===========================================================================================================
 \section{VAR-SOM-MX6 - Yocto Sumo 2.5 based on FSL Community BSP 2.5 with 4.9.88\_2.0.0-ga Linux release}
+Information found on \href{http://variwiki.com/index.php?title=Yocto\_Build\_Release&release=RELEASE\_SUMO\_V1.1\_VAR-SOM-MX6}{variwiki under Yocto Sumo release guide.}
+website
 
-4.6) local conf customization
-    4.6.1) change download directory. -> implied already in directory /home/user/var-fslc-yocto/ at execution
-        make and set permision for a yocto download file:
-            \$ sudo mkdir /opt/yocto\_downloads
-            \$ sudo chmod 777 /opt/yocto\_downloads
+\subsection{ build x11 GUI demo image}
+The given commands throw an error with setup-environment. Adding a "./" as below works. Next is building the demo image using bitbake, excluding QT content.
+%-----------------
+\lstinputlisting{./inputs/sourceYocto/demoGUI.txt}
+%-----------------
+Output in appendix \ref{app:GUIImage}.
 
-        change download path for the configuration file for yocto's build\_x11 setup -> the given link does not work. "function". You need to add the directory for the
-        build, making the addition /build\_x11/conf/local.conf. Thus
-        '$ sed -i 's/DL_DIR ?= "${BSPDIR}\/downloads/DL\_DIR = "\/opt\/yocto\_downloads/g' conf/local.conf' becomes
-        $ sed -i 's/DL_DIR ?= "${BSPDIR}\/downloads/DL\_DIR = "\/opt\/yocto\_downloads/g' build\_x11/conf/local.conf
+
+%--------------------------------------------------------------
+\subsection{ console-only demo image }
+not built. should not pose new issue beyond the GUI. GUI image is enough.
+
+\subsection{ local conf customization}
+
+\subsubsection{ change download directory.}
+It is implied already in directory /home/user/var-fslc-yocto/ at execution
+make and set permision for a yocto download file:\\
+
+change download path for the configuration file for yocto's build\_x11 setup $\rightarrow$ the given link does not work. You need to add the directory for the
+build, making the addition ./build\_x11/conf/local.conf.
+%-----------------
+\lstinputlisting{./inputs/sourceYocto/downloadDir.txt}
+%-----------------
+
+\subsubsection{ BuildResults }
+The resulting files should be located in:  tmp/deploy/images/var-som-mx6
+table layout of files on
+\href{http://variwiki.com/index.php?title=Yocto_Build_Release&release=RELEASE_SUMO_V1.1_VAR-SOM-MX6#Build_Results}{web page}
+
+%--------------------------------------------------------------
+\subsection{ create bootable SD card }
+
+\subsubsection{ SD structure. map of SD card structure after partitioning.}
+schematics on the \href{http://variwiki.com/index.php?title=Yocto_Build_Release&release=RELEASE_SUMO_V1.1_VAR-SOM-MX6#SD_card_structure}{wiki}.
+
+5.2) Yocto pre-built
+    The standard partition is not sensitive to SD size, nor does it include the install scripts. At time of writing, utilized extended version
+
+    Replace "sdX" with the right device name. This can be obtained by "dmesg" or "lsusb" or "ls /dev/sd*" command on your host Linux PC,
+    after the SD card reader is inserted.
+    Also notable, the partition containing the root file system is not named "rootfs"
+        \$ sudo umount /dev/sdX*
+
+        \# For GUI-X11 \& Qt5-X11\\
+        \$ cd ~/var-fslc-yocto/build\_x11\\
+
+        \# For fsl-image-gui image (GUI-X11)
+        \$ zcat tmp/deploy/images/var-som-mx6/fsl-image-gui-var-som-mx6.wic.gz | sudo dd of=/dev/sdX bs=1M \&\& sync
+        %Or
+        %\# For fsl-image-qt5 image (Qt5-X11 \& Qt5-FB)
+        %\$ zcat tmp/deploy/images/var-som-mx6/fsl-image-qt5-var-som-mx6.wic.gz | sudo dd of=/dev/sdX bs=1M \&\& sync
+
+5.3) Create extended SD card
+    This is a variscite partition shell script "var-create-yocto-sdcard.sh" which partitions the card and installs necessary files for NAND flash.
+
+    An issue that popped up, was the bash "rename" command. running a "sudo apt-get install rename" fixed issue.
+
+        \$ cd ~/var-fslc-yocto
+        \$ sudo MACHINE=var-som-mx6 sources/meta-variscite-fslc/scripts/var\_mk\_yocto\_sdcard/var-create-yocto-sdcard.sh <options> /dev/sdX
+        (Replace /dev/sdX with your actual device)
+\\
+        options:
+         -h            Display help message
+         -s            Only show partition sizes to be written, without actually write them
+         -a            Automatically set the rootfs partition size to fill the SD card
+         -r            Select alternative rootfs for recovery images (default: build\_x11/tmp/deploy/images/var-som-mx6/fsl-image-gui-var-som-mx6.*)
+
+    output in appendix%\ref{app:extendedSDcard}
+
+\subsection{ Boot board through SD card}
+
+6.1) Setting boot mode. 6.1.1 har instructions for MX6 custom board.
+
+6.2) Automatic device tree selection in U-boot. Default enabled.
+
+\subsection{Flash images to NAND}
+See section \ref{sect:NANDFlash}.
 
 
 %===========================================================================================================
-\section{Yocto NAND Flash Burning}
+\section{Yocto NAND Flash Burning\label{sect:NANDFlash}}
+\subsection{ Introduction }
+VAR-SOM-MX6 boots from on-SOM NAND flash. U-boot, kernel image and device tree blob are also stored in NAND flash.
 
-\subsection{5 installing Yocto binaries}
+\subsection{ NAND flash structure }
+defined MTD partitions on NAND flash:
+%-----------------
+\lstinputlisting{./outputs/sourceYocto/relevantPartitionInfo.txt}
+%-----------------
+\subsection{ eMMC structure }
+Not explored.
+
+\subsection{ Yocto built binaries for NAND flash }
+Images generated for NAND flash are located in "tmp/deploy/images/var-som-mx6". There is a table showing the expected files on the
+\href{http://variwiki.com/index.php?title=Yocto\_NAND\_Flash\_Burning&release=RELEASE\_SUMO\_V1.1\_VAR-SOM-MX6#Yocto\_Built\_binaries\_for\_NAND\_flash\_.2F\_eMMC}{variwiki site}
+
+\subsection{ installing Yocto binaries }
+If followed extended SD card creation, NAND flash scripts are already included on the SD card.
+
+\subsubsection{ images location }
+%\lstinputlisting{./outfiles/imageLocations.txt}
+
+\subsubsection{ Preparing images for NAND flash }
+Note: the extended SD card creation makes these steps redundant.
+The SD card should be mounted on the host computer. Assumed mount directory is "/media/rootfs/". If mounted into another folder, modify accordingly.
+
+setup:
+%-----------------
+\lstinputlisting{./inputs/imagePrepNANDFlash/setup.txt}
+%-----------------
+Linux:
+%-----------------
+\lstinputlisting{./inputs/imagePrepNANDFlash/linux.txt}
+%-----------------
+Device tree:
+%-----------------
+\lstinputlisting{./inputs/imagePrepNANDFlash/deviceTree.txt}
+%-----------------
+NAND images:
+%-----------------
+\lstinputlisting{./inputs/imagePrepNANDFlash/NANDImages.txt}
+%-----------------
+
+Other images on wiki.
+
+\subsection{ installing Yocto binaries}
     When accessing board on linux, minicom needed to disable flow control in order to make any input.
 
     %-----------------------------------------------------------
-    \subsubsection{5.1 Images locations}
+    \subsubsection{ Images locations}
     directory structure on SD card
+    %-----------------
+    \lstinputlisting{./outputs/sourceYocto/directoryStructure.txt}
+    %-----------------
 
-        /opt/images/
-        └── Yocto
-            ├── SPL-nand
-            ├── SPL-sd
-            ├── imx6dl-var-som-cap.dtb
-            ├── imx6dl-var-som-res.dtb
-            ├── imx6dl-var-som-solo-cap.dtb
-            ├── imx6dl-var-som-solo-res.dtb
-            ├── imx6dl-var-som-solo-vsc.dtb
-            ├── imx6dl-var-som-vsc.dtb
-            ├── imx6q-var-dart.dtb
-            ├── imx6q-var-som-cap.dtb
-            ├── imx6q-var-som-res.dtb
-            ├── imx6q-var-som-vsc.dtb
-            ├── imx6qp-var-som-cap.dtb
-            ├── imx6qp-var-som-res.dtb
-            ├── imx6qp-var-som-vsc.dtb
-            ├── rootfs.tar.gz
-            ├── rootfs\_128kbpeb.ubi
-            ├── rootfs\_256kbpeb.ubi
-            ├── u-boot.img-nand
-            ├── u-boot.img-sd
-            └── uImage
-        \subsubsection{5.1.1 preparing images for NAND flash }
+        \subsubsection{preparing images for NAND flash }
         with standard SD card setup, need to add necessary files. With the standard setup, filenames are not standard.
         mounted on /media/rootfs. <- guide assumes this is files structure. pwd on minicom returns /home/root. Probably same function, but name will differ from
         guide.
@@ -135,7 +238,7 @@ make: *** No targets specified and no makefile found.  Stop.
         lacks a designator of size in the filename. Appended \_128kbpeb to filename before .ubi.
 
         on the board, run:
-            $ export YOCTO\_IMGS\_PATH=~/var-fslc-yocto/build\_x11/tmp/deploy/images/var-som-mx6
+            $ export YOCTO\_IMGS\_PATH=~/var-fslc-yocto/build\_x11/tmp/deploy/images/var-som-mx6\\
             $ export P2\_MOUNT\_DIR=/media/rootfs/
             $ sudo mkdir -p ${P2\_MOUNT\_DIR}/opt/images/Yocto/
         On computer:
@@ -152,8 +255,58 @@ make: *** No targets specified and no makefile found.  Stop.
                     "\$ sudo cp ${YOCTO\_IMGS\_PATH}/fsl-image-gui-var-som-mx6.ubi ${P2\_MOUNT\_DIR}/opt/images/Yocto/rootfs.ubi" becomes
                     \$ sudo cp ${YOCTO\_IMGS\_PATH}/fsl-image-gui-var-som-mx6\_128kbpeb.ubi ${P2\_MOUNT\_DIR}/opt/images/Yocto/rootfs.ubi
     %-----------------------------------------------------------
-    \subsubsection{5.2 Flashing scripts}
 
+
+\subsection{Flashing scripts}
+Located: "/usr/bin/install\_yocto.sh"
+
+%=========================================================================================================
+Further on would be to flash onto the board, but this is not a priority at this moment. The main goal now is to get the toolchain up and running.
+%=========================================================================================================
+
+
+%=========================================================================================================
+\section{Yocto toolchain installation for out of Yocto builds}
+\subsection{ prerequisits }
+    A full Yocto OpenEmbedded environment to generate the toolchain. This means following steps 1 and 3 from the guide to
+    \href{http://variwiki.com/index.php?title=Yocto\_Build\_Release&release=RELEASE\_SUMO\_V1.1\_VAR-SOM-MX6}{building yocto from source code}.
+
+
+\subsection{ Build toolchain }%============== redo layout!
+run the following code, where the text from the wiki: setup-environment is replaced by ./setup-environment:
+%-----------------
+\lstinputlisting{./inputs/toolChain/build.txt}
+%-----------------
+Output can be found in appendix \ref{app:bitbakeToolChainIDESupport}
+Then run the Tool chain build, output at \ref{app:toolChainBuild}
+
+\subsection{Build complete SDK}
+build development environment with the required libraries in addition to the basic toolchain.
+%lstinputlisting{inputs/toolChain/buildSDK.txt}
+runoutput in appendix \ref{app:toolchainSDK}
+Output will be located in tmp/deploy/sdk/.
+
+
+\section{appendix}
+
+\subsection{bitbake of fslc image}
+%-----------------
+\lstinputlisting{./outputs/sourceYocto/bitbake_image_output.txt}\label{app:GUIImage}
+%-----------------
+
+\subsection{bitbake of toolchain}
+outputh from build of IDE support:
+%-----------------
+\lstinputlisting{./outputs/toolChain/bitbakeMetaIdeSupport.txt}\label{app:toolChainIDESupport}
+%-----------------
+output from toolchain build:
+%-----------------
+\lstinputlisting{./outputs/toolChain/bitbakeToolChain.txt}\label{app:toolChainBuild}
+%-----------------
+\subsubsection{bild SDK}
+%-----------------
+\lstinputlisting{./outputs/toolChain/bitbakeSDKBuild.txt}\label{app:toolChainSDK}
+%-----------------
 
 
 

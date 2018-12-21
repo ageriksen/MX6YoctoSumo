@@ -1,0 +1,1 @@
+$ sudo cp ${YOCTO_IMGS_PATH}/uImage-imx*.dtb ${P2_MOUNT_DIR}/opt/images/Yocto/

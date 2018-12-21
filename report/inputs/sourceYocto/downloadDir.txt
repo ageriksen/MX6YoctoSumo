@@ -1,0 +1,4 @@
+$ sudo mkdir /opt/yocto_downloads
+$ sudo chmod 777 /opt/yocto_downloads
+
+$ sed -i 's/DL_DIR ?= "${BSPDIR}\/downloads/DL\_DIR = "\/opt\/yocto\_downloads/g' build\_x11/conf/local.conf

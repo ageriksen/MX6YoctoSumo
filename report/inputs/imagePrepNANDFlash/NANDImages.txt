@@ -1,0 +1,8 @@
+SPL:
+$ sudo cp ${YOCTO_IMGS_PATH}/SPL-nand ${P2_MOUNT_DIR}/opt/images/Yocto/
+
+U-Boot:
+$ sudo cp ${YOCTO_IMGS_PATH}/u-boot.img-nand ${P2_MOUNT_DIR}/opt/images/Yocto/
+
+File System:
+$ sudo cp ${YOCTO_IMGS_PATH}/fsl-image-gui-var-som-mx6.ubi ${P2_MOUNT_DIR}/opt/images/Yocto/rootfs.ubi

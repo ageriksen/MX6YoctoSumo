@@ -1,0 +1,4 @@
+$ cd ~/var-fslc-yocto
+$ MACHINE=var-som-mx6 DISTRO=fslc-x11 . setup-environment build_x11
+
+$ bitbake -c populate_sdk fsl-image-gui

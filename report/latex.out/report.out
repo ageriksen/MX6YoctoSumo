@@ -1,2 +1,32 @@
-\BOOKMARK [1][-]{section.1}{First}{}% 1
+\BOOKMARK [1][-]{section.1}{introduction}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{setup}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{VAR-SOM-MX6 - Yocto Sumo 2.5 based on FSL Community BSP 2.5 with 4.9.88\1372.0.0-ga Linux release}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{ build x11 GUI demo image}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{ console-only demo image }{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{ local conf customization}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.3.1}{ change download directory.}{subsection.2.3}% 7
+\BOOKMARK [3][-]{subsubsection.2.3.2}{ BuildResults }{subsection.2.3}% 8
+\BOOKMARK [2][-]{subsection.2.4}{ create bootable SD card }{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.4.1}{ SD structure. map of SD card structure after partitioning.}{subsection.2.4}% 10
+\BOOKMARK [2][-]{subsection.2.5}{ Boot board through SD card}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.6}{Flash images to NAND}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{Yocto NAND Flash Burning}{}% 13
+\BOOKMARK [2][-]{subsection.3.1}{ Introduction }{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.2}{ NAND flash structure }{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.3}{ eMMC structure }{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.4}{ Yocto built binaries for NAND flash }{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.5}{ installing Yocto binaries }{section.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.5.1}{ images location }{subsection.3.5}% 19
+\BOOKMARK [3][-]{subsubsection.3.5.2}{ Preparing images for NAND flash }{subsection.3.5}% 20
+\BOOKMARK [2][-]{subsection.3.6}{ installing Yocto binaries}{section.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.6.1}{ Images locations}{subsection.3.6}% 22
+\BOOKMARK [3][-]{subsubsection.3.6.2}{preparing images for NAND flash }{subsection.3.6}% 23
+\BOOKMARK [2][-]{subsection.3.7}{Flashing scripts}{section.3}% 24
+\BOOKMARK [1][-]{section.4}{Yocto toolchain installation for out of Yocto builds}{}% 25
+\BOOKMARK [2][-]{subsection.4.1}{ prerequisits }{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.2}{ Build toolchain }{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.3}{Build complete SDK}{section.4}% 28
+\BOOKMARK [1][-]{section.5}{appendix}{}% 29
+\BOOKMARK [2][-]{subsection.5.1}{bitbake of fslc image}{section.5}% 30
+\BOOKMARK [2][-]{subsection.5.2}{bitbake of toolchain}{section.5}% 31
+\BOOKMARK [3][-]{subsubsection.5.2.1}{bild SDK}{subsection.5.2}% 32

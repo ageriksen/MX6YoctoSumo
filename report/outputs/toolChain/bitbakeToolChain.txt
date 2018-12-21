@@ -1,0 +1,46 @@
+bitbake meta-toolchain
+WARNING: Host distribution "ubuntu-18.04" has not been validated with this version of the build system; you may possibly experience unexpected failures. It is recommended that you use a tested distribution.
+Loading cache: 100% |#############################################################################################################################################| Time: 0:00:00
+Loaded 3373 entries from dependency cache.
+Parsing recipes: 100% |###########################################################################################################################################| Time: 0:00:01
+Parsing of 2471 .bb files complete (2470 cached, 1 parsed). 3374 targets, 209 skipped, 3 masked, 0 errors.
+NOTE: Resolving any missing task queue dependencies
+
+Build Configuration:
+BB_VERSION           = "1.38.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "universal"
+TARGET_SYS           = "arm-fslc-linux-gnueabi"
+MACHINE              = "var-som-mx6"
+DISTRO               = "fslc-x11"
+DISTRO_VERSION       = "2.5"
+TUNE_FEATURES        = "arm armv7a vfp thumb neon callconvention-hard"
+TARGET_FPU           = "hard"
+meta
+meta-poky            = "HEAD:5887f81bb585d0a697b91daf7f7dd6ccb1d444e2"
+meta-oe
+meta-multimedia      = "HEAD:b0950aeff5b630256bb5e25ca15f4d59c115e7c1"
+meta-freescale       = "HEAD:50fbef4593f79949ab6c67b2582d8b5c8b24838a"
+meta-freescale-3rdparty = "HEAD:42c913b8fd266f72950a9ce305d316c0ecb64343"
+meta-freescale-distro = "HEAD:f7e2216e93aff14ac32728a13637a48df436b7f4"
+meta-browser         = "HEAD:d807b901b0b68b478093964bd60a77b9376b3f12"
+meta-gnome
+meta-networking
+meta-python          = "HEAD:b0950aeff5b630256bb5e25ca15f4d59c115e7c1"
+meta-qt5             = "HEAD:4b96f70a083eacfc4ff4a45d4efbb2d131f88c82"
+meta-swupdate        = "HEAD:dae0d3e906e764e02a8b6357e7698bfde278fa6e"
+meta-variscite-fslc  = "HEAD:d1aab80e20b92d3fbef64b8368e050d0aec6587a"
+
+Initialising tasks: 100% |########################################################################################################################################| Time: 0:00:01
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+WARNING: nativesdk-bzip2-1.0.6-r5 do_fetch: Checksum mismatch for local file /opt/yocto_downloads/bzip2-1.0.6.tar.gz
+Cleaning and trying again.
+WARNING: nativesdk-bzip2-1.0.6-r5 do_fetch: Renaming /opt/yocto_downloads/bzip2-1.0.6.tar.gz to /opt/yocto_downloads/bzip2-1.0.6.tar.gz_bad-checksum_f4b5249c17053f5c4c85d870feef4f48
+WARNING: nativesdk-bzip2-1.0.6-r5 do_fetch: Checksum failure encountered with download of http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz - will attempt other sources if available
+WARNING: nativesdk-shadow-4.2.1-r0 do_fetch: Failed to fetch URL http://pkg-shadow.alioth.debian.org/releases/shadow-4.2.1.tar.xz, attempting MIRRORS if available
+WARNING: meta-toolchain-1.0-r7 do_populate_sdk: The postinstall intercept hook 'update_gio_module_cache-nativesdk' failed, details in /home/norxe/var-fslc-yocto/build_x11/tmp/work/armv7at2hf-neon-fslc-linux-gnueabi/meta-toolchain/1.0-r7/temp/log.do_populate_sdk
+NOTE: Tasks Summary: Attempted 3156 tasks of which 1586 didn't need to be rerun and all succeeded.
+NOTE: Writing buildhistory
+
+Summary: There were 6 WARNING messages shown.

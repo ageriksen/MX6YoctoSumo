@@ -1,0 +1,11 @@
+tmp/deploy/sdk/fslc-x11-glibc-x86_64-meta-toolchain-armv7at2hf-neon-toolchain-2.5.sh
+FSLC X11 SDK installer version 2.5
+==================================
+Enter target directory for SDK (default: /opt/fslc-x11/2.5):
+You are about to install the SDK to "/opt/fslc-x11/2.5". Proceed[Y/n]? y
+[sudo] password for norxe:
+Extracting SDK..........................done
+Setting it up...done
+SDK has been successfully set up and is ready to be used.
+Each time you wish to use the SDK in a new shell session, you need to source the environment setup script e.g.
+ $ . /opt/fslc-x11/2.5/environment-setup-armv7at2hf-neon-fslc-linux-gnueabi

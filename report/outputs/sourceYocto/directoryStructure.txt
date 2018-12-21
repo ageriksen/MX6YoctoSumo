@@ -1,0 +1,24 @@
+/opt/images/
+└── Yocto
+    ├── SPL-nand
+    ├── SPL-sd
+    ├── imx6dl-var-som-cap.dtb
+    ├── imx6dl-var-som-res.dtb
+    ├── imx6dl-var-som-solo-cap.dtb
+    ├── imx6dl-var-som-solo-res.dtb
+    ├── imx6dl-var-som-solo-vsc.dtb
+    ├── imx6dl-var-som-vsc.dtb
+    ├── imx6q-var-dart.dtb
+    ├── imx6q-var-som-cap.dtb
+    ├── imx6q-var-som-res.dtb
+    ├── imx6q-var-som-vsc.dtb
+    ├── imx6qp-var-som-cap.dtb
+    ├── imx6qp-var-som-res.dtb
+    ├── imx6qp-var-som-vsc.dtb
+    ├── rootfs.tar.gz
+    ├── rootfs\_128kbpeb.ubi
+    ├── rootfs\_256kbpeb.ubi
+    ├── u-boot.img-nand
+    ├── u-boot.img-sd
+    └── uImage
+

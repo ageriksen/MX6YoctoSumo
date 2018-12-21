@@ -1,0 +1,3 @@
+$ export YOCTO_IMGS_PATH=~/var-fslc-yocto/build_x11/tmp/deploy/images/var-som-mx6
+$ export P2_MOUNT_DIR=/media/rootfs/
+$ sudo mkdir -p ${P2_MOUNT_DIR}/opt/images/Yocto/
