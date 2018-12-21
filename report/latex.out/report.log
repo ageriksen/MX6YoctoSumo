@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.27)  21 DEC 2018 22:34
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.27)  21 DEC 2018 23:33
  restricted system commands enabled.
 **report.tex
 (./report.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.314 seconds
+luaotfload | main : initialization completed in 0.330 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1052,52 +1052,67 @@ Package pgfplots notification 'compat/show suggested version=true': document has
  been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
 (load luc: /home/anders/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lm
-roman12-regular.luc)
-
-LaTeX Font Warning: Font shape `TU/ppl/bx/n' undefined
-(Font)              using `TU/ppl/m/n' instead on input line 79.
-
-(./inputs/sourceYocto/demoGUI.txt
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 1.
+roman17-regular.luc)(load luc: /home/anders/.texlive2017/texmf-var/luatex-cache/
+generic/fonts/otl/lmroman12-regular.luc)
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 1.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 1.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 1.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 1.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)) [1
+)
+<./variscite.jpg, id=151, 867.24pt x 867.24pt>
+File: ./variscite.jpg Graphic file (type jpg)
+<use ./variscite.jpg>
+Package luatex.def Info: ./variscite.jpg  used on input line 81.
+(luatex.def)             Requested size: 346.88986pt x 346.88986pt.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./inputs/sourceYocto/down
-loadDir.txt)
-(./inputs/sourceYocto/prebuiltYocto.text) [2] (./inputs/sourceYocto/SDCard.txt
+Overfull \hbox (1.88986pt too wide) in paragraph at lines 81--82
+[][] 
+ []
+
+
+LaTeX Font Warning: Font shape `TU/ppl/bx/n' undefined
+(Font)              using `TU/ppl/m/n' instead on input line 84.
+
+(./latex.out/report.toc [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./variscite.jpg>])
+\tf@toc=\write5
+
+\openout5 = report.toc
+ [2] (./inputs/sourceYocto/demoGUI.txt) [3]
+(./inputs/sourceYocto/downloadDir.txt) (./inputs/sourceYocto/prebuiltYocto.text
+) [4] (./inputs/sourceYocto/SDCard.txt
 Overfull \hbox (3.07085pt too wide) in paragraph at lines 4--5
 [][][][] 
  []
 
 )
 
-LaTeX Warning: Reference `app:extendedSDcard' on page 3 undefined on input line 
-154.
+LaTeX Warning: Reference `app:extendedSDcard' on page 5 undefined on input line 
+162.
 
-[3] (./outputs/sourceYocto/relevantPartitionInfo.txt)
-(./outputs/sourceYocto/imageLocations.txt [4
+[5] (./outputs/sourceYocto/relevantPartitionInfo.txt)
+(./outputs/sourceYocto/imageLocations.txt [6
 Missing character: There is no └ (U+2514) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ─ (U+2500) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ─ (U+2500) in font [lmroman10-regular]:+tlig;!
@@ -1164,12 +1179,12 @@ Missing character: There is no ─ (U+2500) in font [lmroman10-regular]:+tlig;!
 ])
 (./inputs/imagePrepNANDFlash/setup.txt) (./inputs/imagePrepNANDFlash/linux.txt) (./inputs/imagePrepNANDFlash/deviceTree.txt)
 (./inputs/imagePrepNANDFlash/NANDImages.txt)
-(./outputs/sourceYocto/directoryStructure.txt [5
+(./outputs/sourceYocto/directoryStructure.txt [7
 Missing character: There is no └ (U+2514) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ─ (U+2500) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ─ (U+2500) in font [lmroman10-regular]:+tlig;!
 ])
-(./inputs/toolChain/build.txt [6
+(./inputs/toolChain/build.txt [8
 Missing character: There is no └ (U+2514) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ─ (U+2500) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ─ (U+2500) in font [lmroman10-regular]:+tlig;!
@@ -1238,19 +1253,22 @@ Missing character: There is no ─ (U+2500) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ─ (U+2500) in font [lmroman10-regular]:+tlig;!
 ])
 
-LaTeX Warning: Reference `app:bitbakeToolChainIDESupport' on page 7 undefined on
- input line 243.
+LaTeX Warning: Reference `app:bitbakeToolChainIDESupport' on page 9 undefined on
+ input line 251.
 
 
-LaTeX Warning: Reference `app:toolchainSDK' on page 7 undefined on input line 24
-9.
+LaTeX Warning: Reference `app:toolchainSDK' on page 9 undefined on input line 25
+7.
 
+(./inputs/toolChain/toolchainInstall.txt)
+(./outputs/toolChain/toolChainInstall.txt)
+(./inputs/toolChain/toolchainLaunch.txt) [9]
 (./outputs/sourceYocto/bitbake_image_output.txt
 Overfull \hbox (539.0761pt too wide) in paragraph at lines 3--4
 [][] 
  []
 
-[7]
+[10]
 Overfull \hbox (521.07591pt too wide) in paragraph at lines 32--33
 [][] 
  []
@@ -1260,12 +1278,12 @@ Overfull \hbox (539.0761pt too wide) in paragraph at lines 3--4
 [][] 
  []
 
-[8]
+[11]
 Overfull \hbox (521.07591pt too wide) in paragraph at lines 32--33
 [][] 
  []
 
-[9]) (./outputs/toolChain/bitbakeToolChain.txt
+) (./outputs/toolChain/bitbakeToolChain.txt [12]
 Overfull \hbox (551.07622pt too wide) in paragraph at lines 3--4
 [][] 
  []
@@ -1275,31 +1293,31 @@ Overfull \hbox (539.0761pt too wide) in paragraph at lines 5--6
 [][] 
  []
 
-[10]
+[13]
 Overfull \hbox (521.07591pt too wide) in paragraph at lines 34--35
 [][] 
  []
 
-[11]) (./outputs/toolChain/bitbakeSDKBuild.txt
+) (./outputs/toolChain/bitbakeSDKBuild.txt
 Overfull \hbox (551.07622pt too wide) in paragraph at lines 3--4
 [][] 
  []
 
-
+[14]
 Overfull \hbox (539.0761pt too wide) in paragraph at lines 5--6
 [][] 
  []
 
-[12]
+[15]
 Overfull \hbox (521.07591pt too wide) in paragraph at lines 34--35
 [][] 
  []
 
-) [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
+) [16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
  (./latex.out/report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
 
 
  *File List*
@@ -1403,12 +1421,13 @@ epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
   report.out
   report.out
-./inputs/sourceYocto/demoGUI.txt
   ot1ppl.fd    2001/06/04 font definitions for OT1/ppl.
  omlzplm.fd    2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
  omszplm.fd    2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
  omxzplm.fd    2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
  ot1zplm.fd    2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+./variscite.jpg
+./inputs/sourceYocto/demoGUI.txt
 ./inputs/sourceYocto/downloadDir.txt
 inputs/sourceYocto/prebuiltYocto.text
 inputs/sourceYocto/SDCard.txt
@@ -1420,13 +1439,16 @@ inputs/sourceYocto/SDCard.txt
 ./inputs/imagePrepNANDFlash/NANDImages.txt
 ./outputs/sourceYocto/directoryStructure.txt
 ./inputs/toolChain/build.txt
+./inputs/toolChain/toolchainInstall.txt
+./outputs/toolChain/toolChainInstall.txt
+./inputs/toolChain/toolchainLaunch.txt
 ./outputs/sourceYocto/bitbake_image_output.txt
 ./outputs/toolChain/bitbakeMetaIdeSupport.txt
 ./outputs/toolChain/bitbakeToolChain.txt
 ./outputs/toolChain/bitbakeSDKBuild.txt
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -1435,27 +1457,28 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 295.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38552 strings out of 494480
- 195342,1144653 words of node,token memory allocated
- 563 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 6 attribute, 73 glue_spec, 6 attrib
-ute_list, 1 write nodes
-   avail lists: 2:3639,3:127,4:37,5:6553,6:1730,7:5998,8:3927,9:6991,10:29,11:41
-2
- 41096 multiletter control sequences out of 65536+600000
- 84 fonts using 9300335 bytes
- 69i,6n,119p,747b,747s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 38733 strings out of 494480
+ 244181,1144653 words of node,token memory allocated
+ 588 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 8 attribute, 74 glue_spec, 8 attrib
+ute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:1,2:4062,3:190,4:142,5:7148,6:1785,7:6109,8:4293,9:7656,10:29,
+11:453
+ 41131 multiletter control sequences out of 65536+600000
+ 142 fonts using 12929463 bytes
+ 69i,7n,119p,747b,747s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/tex
-mf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (13 pages, 81039 bytes).
+mf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/openty
+pe/public/lm/lmroman17-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb>
+Output written on report.pdf (16 pages, 495988 bytes).
 
-PDF statistics: 521 PDF objects out of 1000 (max. 8388607)
- 494 compressed objects within 5 object streams
- 317 named destinations out of 1000 (max. 131072)
- 288 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 607 PDF objects out of 1000 (max. 8388607)
+ 572 compressed objects within 6 object streams
+ 339 named destinations out of 1000 (max. 131072)
+ 304 words of extra memory for PDF output out of 10000 (max. 100000000)
 

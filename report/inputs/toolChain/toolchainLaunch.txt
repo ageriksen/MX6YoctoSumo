@@ -1,0 +1,1 @@
+$ source /opt/fslc-x11/2.5/environment-setup-armv7at2hf-neon-fslc-linux-gnueabi

@@ -61,37 +61,44 @@
         [
           "file",
           [
-            "/home/anders/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/luamath/pgflibraryluamath.code.tex"
           ],
-          "1a6c0fab627cf63df1f742c15431eb9416778649119782f4a7920ff3fc02e900"
+          "0f0fecf5e740e72f9b59ad07b87eb1becad5b0ef45865c796c1c42f7b5a3b789"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7v.vf"
+            "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm"
           ],
-          "08ccfe47440d3fc70abc582320b6e2b7f22bccf8844b2708fd57edc9a1e40c88"
+          "a4f7f8d46842a387d1b8222bf639fceb853b1044b5a14b37059e12a7e1d5095f"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex"
           ],
-          "f6ae57a90901e8eb4d5e3b5067fb6ed640b4660ab76cb617f3b9ffb07ef63aaf"
+          "1716f9f714e2aa34581ed285bd55edd5e39bb3c220737c7a335e21bcfd8d4fa2"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex"
+            "/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty"
           ],
-          "94c48568cf5dd6e805f66488b65c9a84ba60a596d6a5ceb03ae2f349be2b0806"
+          "e49716972fb337a8224546c4dbebaa748724e0901ac4c363938d826938a207ac"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex"
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-extended.lua"
           ],
-          "38323f82b1d7a140db59ccf1a97c53264bbd39e9ab0e80896063c8c23cd090d3"
+          "a24989a7b74f740db0808bce99c4b05948bc2507f64599948ce0e2e42d0603e6"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty"
+          ],
+          "be4a121636320564675b28d53c8e17a1efbb113e7157d5c9b75dcc3e350061ad"
         ],
         [
           "file",
@@ -99,27 +106,6 @@
             "/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def"
           ],
           "ad895843b1109d76ab1c52ba5e518b9f272e17975dfbff3077123daabe989833"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty"
-          ],
-          "b3541c333fda15a60781b5515e5146d95d9db0311e6845921f020d83c4999ac1"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty"
-          ],
-          "1fd331155e8875bca29ef85b8053b5835b1afa118a7f98387e5fd5ef57a7e4f9"
-        ],
-        [
-          "file",
-          [
-            "inputs/toolChain/build.txt"
-          ],
-          "db98146e31291a5c6295cce213f86323baffa653a35d6ed0b4ad07be56cff0dd"
         ],
         [
           "file",
@@ -138,331 +124,9 @@
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty"
+            "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo"
           ],
-          "2c42226e752f45346e8ac1671bd2f9fbbbe300d7ae4cb6929b332883666732fe"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty"
-          ],
-          "2373f56849ac606473e77053e5c1d14c92aba312b3f684e02a130eaf36f2de47"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex"
-          ],
-          "25cc1393b4ff6b0290ccb3e96958ebd08ba601854ed075dc268d12a6311e22e1"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex"
-          ],
-          "e1b48706b7222c03b8b98bfe13312cc56cbb8c321ab0f2e13e525ddf24cd740d"
-        ],
-        [
-          "file",
-          [
-            "outputs/toolChain/bitbakeSDKBuild.txt"
-          ],
-          "758b42ffd8b12ef596a8011c69d29428a7e74da32ef9d39545169bf8bcc5a31e"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty"
-          ],
-          "44b7db2d7e9c6c27e548a12095b1a622cc95fb8af261138c1e05674f23863654"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def"
-          ],
-          "5db96357f500fe8bf82f759010c2a65573bc572afe76705078f8e93464d0d4eb"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd"
-          ],
-          "70d4142fc4ab4e8bbcd0b29b93a9a6e30029b57f5934285d13ddba5b68314532"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm"
-          ],
-          "38ded79d7cce07fa28921f37f6b88e67bd86951a3e5af709c219d63454786ce1"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty"
-          ],
-          "a131099305ddd9a08bbdc1932fb0e5b2353433e8c51222d81139a8598ce84f8a"
-        ],
-        [
-          "file",
-          [
-            "/home/anders/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc"
-          ],
-          "d156f600da07c9f4d5c035bc00be883f03415e45e370758082429176367fcce2"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex"
-          ],
-          "5278b8a9cdfac477c9a77bbfea43d9513440942d2de7be9666243f08cc87b589"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf"
-          ],
-          "fcd1204fd8e3b8615402e18d7304474ba214fdb3677069779169e2ba4e3dba7d"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm"
-          ],
-          "a4f7f8d46842a387d1b8222bf639fceb853b1044b5a14b37059e12a7e1d5095f"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg"
-          ],
-          "2e50fb59084db89c531228791c7e1fb88ab51dd5da95e139facdcba9088eeafb"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex"
-          ],
-          "4ff2a069f987606fbafe4bc21b21aa2e539a3b9e597e8868b2764603189a17ea"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex"
-          ],
-          "53a71c12e8009393c57fd0161e0269ed880f42f0c454d5a183ea25d901b22877"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex"
-          ],
-          "1237644530b9e7208dc7d3e7732fc28f14299b87b9587ada0ec8a3594df5b8f7"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex"
-          ],
-          "cf795a8fd8724b06a5b3901626e83894e2ed6725d1763dc0b664175687cd33ae"
-        ],
-        [
-          "file",
-          [
-            "inputs/imagePrepNANDFlash/NANDImages.txt"
-          ],
-          "e8c2c138784ce55c15be9db6a7ad62d6f03bff329ff162f9d460d630aedda87f"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-sta.lua"
-          ],
-          "2fce90a12e95a2dd83daa9ee18ee5f5446256af5e5d6c1094355a508663dd65c"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty"
-          ],
-          "987f70ae471d8121ea2fa3b2aa8d04d833b63e031154200a1cec924f3402c448"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex"
-          ],
-          "400e1b4fa4deb066483f40ddeca5bcb5f71dd6b396725b1c79ea0868cd1fe180"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex"
-          ],
-          "81036a69eba7d8b697c90f015009c1f585831025e1614e8a582bc6361583979d"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex"
-          ],
-          "0f3adf7494f68b075f3de3c9b97e0c7f0e3267dc65c45b685247ea839bb1b1b6"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex"
-          ],
-          "ff1bc6c9936c93f1a959b138314d8307c452dc82a88f3c9ea42af40b0b01817f"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryluamath.code.tex"
-          ],
-          "7ea16b13280860a8c0d57c4d7b6635e3cedb2be150868259333ab5e6d4b08a1f"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty"
-          ],
-          "2b033ea8b5438fc4c736b14785a3bdd394100ffa93b783e5907a786421e0978a"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex"
-          ],
-          "bf63466f51694763c4f879979c210feca33d7b9bd05d993807864ba65ad154fa"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex"
-          ],
-          "b0671f2833e4eb6ee2bd932bbd93f01f92e841b4f6941294b95d5b8075d720e9"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-dim.lua"
-          ],
-          "44822d76cca2f09041d009aef5aa6f056bd7f1ea42b3669da4f0f02e8118b933"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex"
-          ],
-          "3cddb47e11deabeb81abfd328c6b4183a2ae1cc6068060d2e4cbc82147a6209e"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex"
-          ],
-          "9a7f7f425fa00adbba1110a76563916a004ffac5c5765695052e3689f5d24643"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex"
-          ],
-          "51f60cd2266d855290aed65a8901fcf857ca5714964874c725f598cebf59b258"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex"
-          ],
-          "7da4d7c10e41e5fed5f54489deaf761a3d01e2353c47b345582666785805f18b"
-        ],
-        [
-          "file",
-          [
-            "outputs/sourceYocto/bitbake_image_output.txt"
-          ],
-          "59d7063d82d3f2a563641278244b86cbc9d30680fa759ce2939366ad4dda8c0e"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex"
-          ],
-          "38442c559fd7e7be2a812d4d809940795fc9535e6d571dbf52c5a0493b26f998"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex"
-          ],
-          "3d3859315423855374ada7138eae16602115c2df6f1da0d5c5e32865497f7d6c"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex"
-          ],
-          "308419f41fbf780358f4d1d592d840b58341b61ab2cb0db03fb79a933300ace8"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm"
-          ],
-          "e0d35a528c7bcce258e09c9a8d5fd82d552ccab33293dbfdd3b57def660f4ab3"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty"
-          ],
-          "d2709be806dc7d5f54daa9a16022ba1451b1322954751b98e38cfad0cc107450"
-        ],
-        [
-          "file",
-          [
-            "inputs/imagePrepNANDFlash/linux.txt"
-          ],
-          "e4b8e1693a4330f73181edb865e51d403ea6753a7f2987df6ae9f46e90378872"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty"
-          ],
-          "1f538ec52a0b8248a17ff44ba9e4443df997bbab8c335ad2c52df93e63efec04"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty"
-          ],
-          "6f863d9e8d7fa4dcc55986d420fa11b7c94c78f469858608f31931a8c65eec8c"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex"
-          ],
-          "c8d6ef5b7d5e348882c00cc748a0e710458a7e7cae20b8e7d36a2b002e488657"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-trac-inf.lua"
-          ],
-          "6762fe2278422973abfc3eddb1b63f7cc201f4e74d5fec4a26cb960a421feb9b"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-str.lua"
-          ],
-          "b7e33fcf10e92df42727cfa86661834cf2b37423cca4e047f65ad87958f3b43f"
+          "66d7f53f03f56f3d2296d0f8b647ac1f8e5119cf59286949cbc02e4da3547227"
         ],
         [
           "file",
@@ -481,324 +145,9 @@
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls"
+            "/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty"
           ],
-          "21c148434e0986405bcbd765b7d121d9569dcca9f1081836cd0ab396fb70cc8d"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex"
-          ],
-          "e90c556be8f468865ca2b656913ba8afc2220f2c163f02e0874731a6d34cdd64"
-        ],
-        [
-          "file",
-          [
-            "outputs/toolChain/bitbakeToolChain.txt"
-          ],
-          "542adca6650bfc93beed4103c9228dcf1a3c59bf4b99ebe6e9bf54c94a8796c6"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex"
-          ],
-          "4c71ea64f5b3582f1d6346f9f9a782da20ed7a4c76e00ee1f73ee23186a1db9b"
-        ],
-        [
-          "file",
-          [
-            "outputs/sourceYocto/directoryStructure.txt"
-          ],
-          "d8a29e7b7e433dc7dd071475b73dc0ed936d824b6be586dd4e860495c20a5fc5"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/unicode-data/CaseFolding.txt"
-          ],
-          "97b43ed3f4b80572c2114200e5e43a6b923d984c74a6caaf27de5b8462c04cb0"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii"
-          ],
-          "5dd3675b88c7b61d3703e6bf35ed75623acc6b163dff7b1477b485cee8ad71cb"
-        ],
-        [
-          "file",
-          [
-            "inputs/sourceYocto/downloadDir.txt"
-          ],
-          "af71aa398639565d88d7165890e10f428a31daafd8797a573f1980614f314d3e"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex"
-          ],
-          "4b03116bf9e48f6a2652deb77f24ce9d882cb2cacc489769ad1ca22a9a83d5d6"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-function.lua"
-          ],
-          "d6c4bdea579d19cf261b756c1157431d8057597ca7d51d34e7c642ed1a240f17"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex"
-          ],
-          "e305db8af972ff438979880d24427a22eb2cfb6bd1dbd875952e257610589d6b"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex"
-          ],
-          "6da3a9b31c9fbbe9a0a98fa3f292dd11ec6133585873685b1c07b606491a8295"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-prs.lua"
-          ],
-          "fc696a5cba9ffcc2a919b98ef584fb5fa41c35cb48670d69207ed1657118e346"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex"
-          ],
-          "9aed7f857d26e6284d719ef379a2feb84812fa6e9872e559c6813b1b6c45b8c0"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex"
-          ],
-          "b663e44e1d780fbfdd2adb8d76349281ac7d6211a7f3175ffa34d65a1fecbb89"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex"
-          ],
-          "9ed1b682202d124bf705779ccad5eee2bf4ed8d87be69420ccccc862a588a43e"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty"
-          ],
-          "2166b8755edd4390ddc9bf7ddbeac6a508b3aa5164cb1ced94afab6339a06ba8"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-dir.lua"
-          ],
-          "51889b88fdf125f633f31353d8a801b8fe18af7f6e9837eb1f647da06a9f3934"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex"
-          ],
-          "285da39b32bee58c3cad318670a986b3097efd4442d2452d48abbf3727a47157"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty"
-          ],
-          "139e2cee0da9394495fdb43ac578dfcbfa1dadecf1650c0edfa9fbb20d641b35"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex"
-          ],
-          "2e39377c1cb350bbd36935e1373566465ed2cee3d1a2fd563d926581b054aadc"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf"
-          ],
-          "83300c3d0fba85f3a970272217b5f9576262fe7fdb98599b81f9f8c3370cd464"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo"
-          ],
-          "66d7f53f03f56f3d2296d0f8b647ac1f8e5119cf59286949cbc02e4da3547227"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex"
-          ],
-          "b24fa9687d122944cb2709737d6fb9e30fb2682df2ad34621593c0abeb6856ef"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg"
-          ],
-          "feb91e48789a21e4acced98e952c77a2e2cf4a77e01bf147b59fa56a1b3f2008"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty"
-          ],
-          "7c96617103e4523b4a74b114c859d46fc7bdde8beb93528869af8e81aed8c307"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg"
-          ],
-          "10db2171b6e267720299c10b9e84f92c5cf069941dbfe3760e198304e49d5324"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm"
-          ],
-          "bd6d165335291757670e8526361fe8880ebc5291a0d0b2f297e0f865e4c86eb4"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm"
-          ],
-          "e442c5487f84df70218ff37f775c87060856f5b6e04c011b6cadbbadfcf46645"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty"
-          ],
-          "117b458cb417ce12bdc1f6f7d03bae5ebf4d6dbd23f88bc99c8711db86947932"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex"
-          ],
-          "d48a5679ca97f921aa11c6ac0aea9773f8791ab8cf71399ed731f44236d04eed"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-gzip.lua"
-          ],
-          "8144cffea62a9e46e5a7b6aa1ce85968dc3ba5cbfbd43ef8a9666e59930d4bde"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-boolean.lua"
-          ],
-          "9d84c6eb409ad3a0a97a36a245aa39d9bbc67dd093395eb3c77ae0d5ad7dd685"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex"
-          ],
-          "d21d8226c0320a28d947b7ca851d661cd76189a7e40d00fc544ddc26bb4161f4"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty"
-          ],
-          "ac51da6d4dc7fa924548314952705f04110e143eba3b1116f55959e5a90e56d9"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex"
-          ],
-          "77a129850572be38d1cb3540d5b6ac4a835f2335ba22a2f90cd4d05762b0bbf0"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex"
-          ],
-          "d86a0c9963f42d9e268d51eb1923fba481f36f5d3ce86f56ef20900015dda18d"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex"
-          ],
-          "12dfa15deed098538d51fb665a4f4ff759d8ef63d9216b38c19e87fbb0b476dc"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex"
-          ],
-          "320e47dd0d1a6b9754ae0749aaae897d9dcf20142a4762b26fb86217a0d0f5aa"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty"
-          ],
-          "21cb774d4496c08bbf39b967fdb72cffbc5e7c39336c834841fbc717d8ab12ef"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty"
-          ],
-          "9fab30c7e6c5ef15988dbbaa40069a48bf748479cc0eea1211be7f9fbee2b0e8"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty"
-          ],
-          "9d863420d3bfb94d423abf1f7e7f934cee49aa1295ace3ece3dd4711d4da793c"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.coltype.code.tex"
-          ],
-          "0c1ecf023aa8465d1df318468b7e4f14439f5223f2c3e10cf5dbf4ca11639bb6"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty"
-          ],
-          "87e8f734e04bcc0dc79d118aac786e7cd5879442b4605dc18d6863b49c3d7b55"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf"
-          ],
-          "afd583598b9b60fa41ee9b86c2f501cc8da02620892cb372a528dba2d4942a25"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex"
-          ],
-          "86843251927c29a021eac1635ee8650cfc06265281b50441d8cb6f67bb8504ee"
+          "d842812939fd3c32bb07269a3422f92785ea140868be558d993fb8a8bd8dc4a2"
         ],
         [
           "file",
@@ -810,79 +159,37 @@
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex"
           ],
-          "0421852292fb6c7af0fdc2f55167b2ce8bd2e3fcdc0af341fefef5c6fe00236d"
+          "e90c556be8f468865ca2b656913ba8afc2220f2c163f02e0874731a6d34cdd64"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex"
+            "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty"
           ],
-          "e7359254b2f167032d6ef64d6f543efaf48455f311ca0f6183cace72982258bd"
+          "33198a41bb7a6fac72317afe83cca19c2b4a04c5b6ac15bd29c8117f0d508434"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex"
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm"
           ],
-          "e6c80ecb92dc7b22c83963fa9e8ea9d145dfe650d897b08ac9521b6c6a3cfd7e"
+          "5be32b63aaac25452859ffb6ed8bdd6bc729730f6808de90e750761b63beaf52"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib8.tfm"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex"
           ],
-          "e9fcf027b39859a8e6004061d2bf700ecec237cfc9f7e88bc15e5d2e99dc4fbf"
+          "75bfdc0c2a57bca3e7e173113f41d08529e3e3e657e942ee629d86d946807392"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def"
           ],
-          "2edd88590c03d27d0c987c4ac909449f577732b793e7ded896ae151b09b677e8"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex"
-          ],
-          "521c3db6439ff99c2dbcba5384f8006824ab4a4af28f86785ec9930968272536"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty"
-          ],
-          "29bf0a43a57d8da4b3dc2fd722d34f80536f0e303cb1477d7cb5d2e29d949b8c"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm"
-          ],
-          "4465d20955917959c68d0254647e5caba1f38c4516a1fd212eab2da9b8645874"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm"
-          ],
-          "9566eeab4621d895d1fa22221fb62f7b6ccffa44845078fa2037b465ce67e06b"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex"
-          ],
-          "a98c9cc11cd6fe47619479d05f9650953f7f13022648d5a20bd73dc664c83ef8"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex"
-          ],
-          "7500035995e77294c34795fc8fc722bc06c25fe56fe939c6fcbf30a8db91e10e"
+          "bb5ee5143e8a7de6c250d5da8ddce857ecf8620f63567666ee28dddd849a968b"
         ],
         [
           "file",
@@ -894,51 +201,23 @@
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm"
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm"
           ],
-          "f84c5ee62dab65954e4bc32c9bfce95ac76d0e25866b7282b3237136fbe0d675"
+          "bd6d165335291757670e8526361fe8880ebc5291a0d0b2f297e0f865e4c86eb4"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex"
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-io.lua"
           ],
-          "6f90dc3247c4290c5316bb0fd4873a7db0d8f4c90a8e147d204c4bd5ca95d620"
+          "3fea4f27145a77407f14dd995b45ef8b3d3411f2d8f33a2d08f3a5f20249e9f2"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-string.lua"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex"
           ],
-          "3652e7af7ce7d25fa4f5cdda9e81735fc1b52c242536e324efa49068f4c8bcfa"
-        ],
-        [
-          "file",
-          [
-            "inputs/imagePrepNANDFlash/setup.txt"
-          ],
-          "ceab5112742ee94031f4b71fa1bf8d415eff0332c98bcc2f320c5cc72474867d"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def"
-          ],
-          "8c7825cad56f8c83604b497147c6cb4549b41be2c962a90aadaa5ec6a5cfe662"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex"
-          ],
-          "f4d79f2276c7d432c79c06bf020aa051ea77bfc23c060c171f7c6db36018044d"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty"
-          ],
-          "cc1fa8e3e7c7569f193f2d2898412b382225474f955bb92f4c822c800c2bd02b"
+          "51f60cd2266d855290aed65a8901fcf857ca5714964874c725f598cebf59b258"
         ],
         [
           "file",
@@ -950,16 +229,163 @@
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex"
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-lpeg.lua"
           ],
-          "3855b614c21e3bba1c6aac234d3f1d14d3811a8935c281c56319bf73d2fa99f9"
+          "09e9deb0bb8034f688ec3b0625f424dcec08814ce2678675e93eed16e5a9bbc1"
         ],
         [
           "file",
           [
-            "/var/lib/texmf/web2c/luatex/lualatex.fmt"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex"
           ],
-          "3cbc79e6b9ec135fd7cf757ec4913dbbb2a324f27c228bca75ec8946e83eebfc"
+          "7747497c22fd7b70124ee894a5a6e298dc0eb0787bba9e663d2a4f23161542a2"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex"
+          ],
+          "2e39377c1cb350bbd36935e1373566465ed2cee3d1a2fd563d926581b054aadc"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex"
+          ],
+          "3d3859315423855374ada7138eae16602115c2df6f1da0d5c5e32865497f7d6c"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-dir.lua"
+          ],
+          "51889b88fdf125f633f31353d8a801b8fe18af7f6e9837eb1f647da06a9f3934"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty"
+          ],
+          "1fd331155e8875bca29ef85b8053b5835b1afa118a7f98387e5fd5ef57a7e4f9"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex"
+          ],
+          "285da39b32bee58c3cad318670a986b3097efd4442d2452d48abbf3727a47157"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm"
+          ],
+          "9fb9cbe254c828bc6bdcc0ca66f81b6cb9b713edf0ef1b7fa67e231920112499"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex"
+          ],
+          "878385031a1d3ea317938785f956d075fd419415bc00204b28f3f6792bb30d29"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm"
+          ],
+          "4465d20955917959c68d0254647e5caba1f38c4516a1fd212eab2da9b8645874"
+        ],
+        [
+          "file",
+          [
+            "outputs/toolChain/bitbakeSDKBuild.txt"
+          ],
+          "758b42ffd8b12ef596a8011c69d29428a7e74da32ef9d39545169bf8bcc5a31e"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty"
+          ],
+          "6f863d9e8d7fa4dcc55986d420fa11b7c94c78f469858608f31931a8c65eec8c"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty"
+          ],
+          "2373f56849ac606473e77053e5c1d14c92aba312b3f684e02a130eaf36f2de47"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex"
+          ],
+          "98a2c689bfca047572381ef24a731a6e27854907b1951f7af4112b9b84c0c2c7"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-set.lua"
+          ],
+          "c4e52ead493f488afe7558d5c658d447c506f5d1a8594c10a75edcf1aa115440"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-tpl.lua"
+          ],
+          "a73eecfdc5ec09e703a9481f4ff51e69beba2d9c07b251c923f60fcadbf1ccd6"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua"
+          ],
+          "6c2ca2de2255fdf838f379f3938a3412f1716940ce3ccd9e619652448a868a36"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmathfloat.code.tex"
+          ],
+          "3108a90b6a617618889c5fc9d4ad53ad4c6e7d6af4000e02ea31fa7c67ba53b4"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex"
+          ],
+          "71271312b0668f69e03014f6c90fcf37112de363643661a2cbb77e047e86d75e"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd"
+          ],
+          "620e40eff627d8b20559967f07489398d198951f5418f551cb0137ccbcb572df"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex"
+          ],
+          "79b11ebf49e85412c972d596f99d278c6d9d97b7c04255a0b83d8297901a278b"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex"
+          ],
+          "77a129850572be38d1cb3540d5b6ac4a835f2335ba22a2f90cd4d05762b0bbf0"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty"
+          ],
+          "cc1fa8e3e7c7569f193f2d2898412b382225474f955bb92f4c822c800c2bd02b"
         ],
         [
           "file",
@@ -971,37 +397,240 @@
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex"
           ],
-          "e49716972fb337a8224546c4dbebaa748724e0901ac4c363938d826938a207ac"
+          "6f90dc3247c4290c5316bb0fd4873a7db0d8f4c90a8e147d204c4bd5ca95d620"
         ],
         [
           "file",
           [
-            "latex.out/report.aux"
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-package.lua"
           ],
-          "821453e3a6570619881cb0e309e16deac436957fec7e5bb99365a7a08837da2a"
+          "b7d1e1e446cd1705898e84ec22400bd6ef31b8b2ceec4a88570799e3b9d8c85b"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty"
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-trac-inf.lua"
           ],
-          "9f1703891932406a3244d366aa5aa1dcdb3b80c82c384338401f5424bd5a85f2"
+          "6762fe2278422973abfc3eddb1b63f7cc201f4e74d5fec4a26cb960a421feb9b"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-math.lua"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex"
           ],
-          "67032addf79286bfe579a5349f0198f2a9184f6941c13c66a15cca5aea4cb9e0"
+          "7da4d7c10e41e5fed5f54489deaf761a3d01e2353c47b345582666785805f18b"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-md5.lua"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex"
           ],
-          "b27bef718e3dbfdbda0e49823eee23dfe824143886e67d65b8d8ec5625203c62"
+          "e6c80ecb92dc7b22c83963fa9e8ea9d145dfe650d897b08ac9521b6c6a3cfd7e"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-string.lua"
+          ],
+          "3652e7af7ce7d25fa4f5cdda9e81735fc1b52c242536e324efa49068f4c8bcfa"
+        ],
+        [
+          "file",
+          [
+            "report.tex"
+          ],
+          "de5959ccf90b42d867778346aa547b6bc040b6d79e0199559547d431e2d44d9d"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-file.lua"
+          ],
+          "7c6b307918b6c980b7c5e544e34300a3864d83dc349134065ff517767f944e83"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg"
+          ],
+          "2e50fb59084db89c531228791c7e1fb88ab51dd5da95e139facdcba9088eeafb"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty"
+          ],
+          "d593ce32962f09494d212c176af0e739e51d89d65032c5a0c1b82c543badbccb"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex"
+          ],
+          "e7359254b2f167032d6ef64d6f543efaf48455f311ca0f6183cace72982258bd"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty"
+          ],
+          "a3060c27e017df7a6da2c0e3ceab63a69470ffb0e869a7a7996e318a23df6e39"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex"
+          ],
+          "320e47dd0d1a6b9754ae0749aaae897d9dcf20142a4762b26fb86217a0d0f5aa"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex"
+          ],
+          "b0671f2833e4eb6ee2bd932bbd93f01f92e841b4f6941294b95d5b8075d720e9"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf"
+          ],
+          "b5598797a2322cf413d431b63b490b77d8e25ba275ff0b8ce66f5f933ce5a441"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty"
+          ],
+          "4b6e94349101340e90db52d3042da0cd5868660ebde38d0267feda92a3cada31"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-function.lua"
+          ],
+          "d6c4bdea579d19cf261b756c1157431d8057597ca7d51d34e7c642ed1a240f17"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty"
+          ],
+          "d198f4c276516b07fcd6200246c0aec3380dca3bd64f872f4b2adf9c74d59183"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty"
+          ],
+          "117b458cb417ce12bdc1f6f7d03bae5ebf4d6dbd23f88bc99c8711db86947932"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex"
+          ],
+          "9a7f7f425fa00adbba1110a76563916a004ffac5c5765695052e3689f5d24643"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex"
+          ],
+          "4b03116bf9e48f6a2652deb77f24ce9d882cb2cacc489769ad1ca22a9a83d5d6"
+        ],
+        [
+          "file",
+          [
+            "/home/anders/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc"
+          ],
+          "d156f600da07c9f4d5c035bc00be883f03415e45e370758082429176367fcce2"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty"
+          ],
+          "9bb58ae586882df212c331b11c1453995f9f284ae8870fb34d6094b2cd33e806"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex"
+          ],
+          "5e4307d22305b98e384405507f4e97916f7c423903d5bfb1e8102645b0634258"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def"
+          ],
+          "5db96357f500fe8bf82f759010c2a65573bc572afe76705078f8e93464d0d4eb"
+        ],
+        [
+          "file",
+          [
+            "outputs/toolChain/bitbakeMetaIdeSupport.txt"
+          ],
+          "0f6322a8b67577baf1bdf730ef1f50aba98186415d95fecc0e33dd7629c5c89e"
+        ],
+        [
+          "file",
+          [
+            "inputs/sourceYocto/SDCard.txt"
+          ],
+          "4fbcc12364992857395c46fb278d49366f1ca6caeb0600b1b623c135315f8b97"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty"
+          ],
+          "814ec800651bd979061379228acbacd71d6ef9bf07431069100a5b46ac9d2e24"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex"
+          ],
+          "25cc1393b4ff6b0290ccb3e96958ebd08ba601854ed075dc268d12a6311e22e1"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex"
+          ],
+          "aa64456e95ceb0d91d4cddc4ccf6f22b18ae25d410997ca10738bfd88aaa6cdd"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty"
+          ],
+          "1f538ec52a0b8248a17ff44ba9e4443df997bbab8c335ad2c52df93e63efec04"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg"
+          ],
+          "a3529ccdadc8248b4c5d7c34ceea53bdc1509b54f18a192ad51b924bd297d8df"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex"
+          ],
+          "9ed1b682202d124bf705779ccad5eee2bf4ed8d87be69420ccccc862a588a43e"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex"
+          ],
+          "94c48568cf5dd6e805f66488b65c9a84ba60a596d6a5ceb03ae2f349be2b0806"
         ],
         [
           "file",
@@ -1009,6 +638,27 @@
             "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex"
           ],
           "fd55d9796ac7e067f93717e3a3c81b90a446400ef3fb4ce5a3672f2923865763"
+        ],
+        [
+          "file",
+          [
+            "inputs/toolChain/build.txt"
+          ],
+          "db98146e31291a5c6295cce213f86323baffa653a35d6ed0b4ad07be56cff0dd"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-lua.lua"
+          ],
+          "c9fa32cee9281b66abe49272cb9fed1f6f6f76c9cabcf84c309ae7e6be7f2f0e"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex"
+          ],
+          "4d55157f774cef72dc75437e748b64cd429850ef17d0b57138552078376bc62f"
         ],
         [
           "file",
@@ -1034,349 +684,6 @@
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd"
-          ],
-          "e761b5f6b64d79454248b561cb8e8f463eead7a7ec13e7df738404986bd98e30"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm"
-          ],
-          "44450eccf316fb430cff368df7884aa3b8027f80745b77f8b48ea9d53b66d7e4"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm"
-          ],
-          "adfe5cd6d96609eee450dfb2bd3c63b57c635c2583ad3e739510a3eab1a08aa9"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex"
-          ],
-          "aa08aa18cb2b0a1d5cfbaee7f9759a8082b63238cf775eb7a131fb04906173f7"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex"
-          ],
-          "3ce60927a0c2bf64d57ee1e114e1385d292e4c6d55c73a44bfae1acdec8c77bc"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/luamath/pgflibraryluamath.code.tex"
-          ],
-          "0f0fecf5e740e72f9b59ad07b87eb1becad5b0ef45865c796c1c42f7b5a3b789"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg"
-          ],
-          "0b863b120a22f8bf4f8800c28f49c6a61ee4b2cfc25ae94fbf2e5bd46af61de7"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/unicode-data/UnicodeData.txt"
-          ],
-          "52423e4d7492167b62f518f68d54db88930abbbff7f11edfcaec8f726498cab1"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex"
-          ],
-          "79be70eba4a22b8ef513fc91e1c7b555350b7b938c95e71b8b588fda10f3f74e"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex"
-          ],
-          "a22e63640142a4a0e0d3f6276525c80ee6cff95aea9dc9092cd094d281845673"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty"
-          ],
-          "9bb58ae586882df212c331b11c1453995f9f284ae8870fb34d6094b2cd33e806"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-fil.lua"
-          ],
-          "600e812b79af90583d26aa22c2f2cc62fba608d82f0fbc691ba271524c32cf86"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty"
-          ],
-          "9a712c64bd704296da7b1b6a883d2c75a072810f6d0c40f74b791f69da1c230a"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg"
-          ],
-          "a3529ccdadc8248b4c5d7c34ceea53bdc1509b54f18a192ad51b924bd297d8df"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-package.lua"
-          ],
-          "b7d1e1e446cd1705898e84ec22400bd6ef31b8b2ceec4a88570799e3b9d8c85b"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty"
-          ],
-          "252108ffe92ffcefcbab0b2d959f74a485085d4d2a39781597a5ad797d190239"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def"
-          ],
-          "af0be40332700887b8a74b198c726ed4aac4f9e3c84d6b43097b8d6475ddf13c"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty"
-          ],
-          "51422f19007c112aefd7eafc16c2e11b0b864ad229f7fe0502b846dea7c0dc80"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-jsn.lua"
-          ],
-          "4b64ef41a7750767a20c0b64fe0ff7250cc4c978481548b73074d8d346603a4d"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex"
-          ],
-          "71271312b0668f69e03014f6c90fcf37112de363643661a2cbb77e047e86d75e"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmathfloat.code.tex"
-          ],
-          "3108a90b6a617618889c5fc9d4ad53ad4c6e7d6af4000e02ea31fa7c67ba53b4"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex"
-          ],
-          "5bf06df2ed79c876aa04b297594e85ad7f7f0f399ca967fd19b9dea7b0c8b077"
-        ],
-        [
-          "file",
-          [
-            "outputs/toolChain/bitbakeMetaIdeSupport.txt"
-          ],
-          "0f6322a8b67577baf1bdf730ef1f50aba98186415d95fecc0e33dd7629c5c89e"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty"
-          ],
-          "cb353b58769449f756c5c16f9d355c90c0714d1da1228bf912c3a5b208b4890b"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-compat.lua"
-          ],
-          "93c0a38d03278e68fb2aa3f7a1cea090555ddb981225a5771530e678d28301ba"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex"
-          ],
-          "5e4307d22305b98e384405507f4e97916f7c423903d5bfb1e8102645b0634258"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex"
-          ],
-          "7747497c22fd7b70124ee894a5a6e298dc0eb0787bba9e663d2a4f23161542a2"
-        ],
-        [
-          "file",
-          [
-            "latex.out/report.out"
-          ],
-          "31033b1622af137c274c0fc2a5a3131cdf2a6ff682630488483930d50415f96e"
-        ],
-        [
-          "file",
-          [
-            "inputs/sourceYocto/demoGUI.txt"
-          ],
-          "7fc7fc3aaca45ee65eba7d790d737b65da74d0b555f53a3b058d2d892669438b"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex"
-          ],
-          "79b11ebf49e85412c972d596f99d278c6d9d97b7c04255a0b83d8297901a278b"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb"
-          ],
-          "62ee8cef552017551cd3e026a483e700730103eceaad959c87b7730017f59cff"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty"
-          ],
-          "d646b145cc057a901bcf998f39c6b6300e4c8f9510f719a6c89039dfee43ea12"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty"
-          ],
-          "d96edb812fa1145a27152b72c556ccdd523c9bb840db26b7d6be68cbfd6c5df8"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty"
-          ],
-          "a8d9b79a8850f144a89a1e8391ec01459f0b68326dfaec48d601b304c6d05410"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty"
-          ],
-          "814ec800651bd979061379228acbacd71d6ef9bf07431069100a5b46ac9d2e24"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty"
-          ],
-          "33198a41bb7a6fac72317afe83cca19c2b4a04c5b6ac15bd29c8117f0d508434"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty"
-          ],
-          "d842812939fd3c32bb07269a3422f92785ea140868be558d993fb8a8bd8dc4a2"
-        ],
-        [
-          "file",
-          [
-            "inputs/sourceYocto/SDCard.txt"
-          ],
-          "4fbcc12364992857395c46fb278d49366f1ca6caeb0600b1b623c135315f8b97"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex"
-          ],
-          "ef606fdf2ffc6197b9e1037860e1fe788cfa1aa3bf271a986dd6662b2e6526ca"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty"
-          ],
-          "f88f0ba329d6a8ce6862c01e31617e9bfba24c8f27f6ae0107adac12f3c4e9d4"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-luatex.def"
-          ],
-          "be4fb3f42b4ce8768d5eacc85f14d89e14ee5ba4407ef4863a52dfcc73e0ebe1"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def"
-          ],
-          "bb5ee5143e8a7de6c250d5da8ddce857ecf8620f63567666ee28dddd849a968b"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex"
-          ],
-          "95a51f83687b84aabfe25d1ac611f4a15550651ee321ded34abd71bbb4795062"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm"
-          ],
-          "1f6f28415cf1c948e668b20ebd658b6d443c37b2cb6ff6b5d8a84d618f4ca7d7"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg"
-          ],
-          "2f02b2ce246c697cd5fb01bd833c348d45d7d7add66587958a56254ffd011807"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm"
-          ],
-          "6dab44c885b7cbf567771d9cfa565f3df34d0e8124132b9b6f9fdc496a1c2eda"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-extended.lua"
-          ],
-          "a24989a7b74f740db0808bce99c4b05948bc2507f64599948ce0e2e42d0603e6"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty"
-          ],
-          "eceb84f9f743071017f78bb6a611b0a7393aea644ad87ec8ea9076d82a71c961"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf"
-          ],
-          "b5598797a2322cf413d431b63b490b77d8e25ba275ff0b8ce66f5f933ce5a441"
-        ],
-        [
-          "file",
-          [
             "/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty"
           ],
           "a17e47f93a2a5d35763dc9f5a026184c16fad432ef5d77a9c9abf2ad39b1b92c"
@@ -1384,163 +691,9 @@
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex"
+            "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty"
           ],
-          "aa64456e95ceb0d91d4cddc4ccf6f22b18ae25d410997ca10738bfd88aaa6cdd"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex"
-          ],
-          "07be13e1beae92a928fba8af7db1ac68e5ea7c54e7e60b61f67633958d65b234"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex"
-          ],
-          "971095ac4987016804e610f47f9f800fa6278d5cf62358d2e3b2adbd15217ef2"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm"
-          ],
-          "87f2d8981927644cbecaf3d639e96e348ea4e7be49d8804468bd8ba9ff3f5244"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex"
-          ],
-          "4d55157f774cef72dc75437e748b64cd429850ef17d0b57138552078376bc62f"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty"
-          ],
-          "be4a121636320564675b28d53c8e17a1efbb113e7157d5c9b75dcc3e350061ad"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex"
-          ],
-          "878385031a1d3ea317938785f956d075fd419415bc00204b28f3f6792bb30d29"
-        ],
-        [
-          "file",
-          [
-            "outputs/sourceYocto/relevantPartitionInfo.txt"
-          ],
-          "6716efb75789ad6ff22b901e6af9cada14c571c036abd28ec67662062026899c"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-tpl.lua"
-          ],
-          "a73eecfdc5ec09e703a9481f4ff51e69beba2d9c07b251c923f60fcadbf1ccd6"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua"
-          ],
-          "6c2ca2de2255fdf838f379f3938a3412f1716940ce3ccd9e619652448a868a36"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-tab.lua"
-          ],
-          "a45a4ea8c4d7ae146d39ab28987de15f3db39de9f310d8075b16c23e93b7a874"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex"
-          ],
-          "c8a509eab6e1b63a6697819d85b2737ea6b8e7ca93006855eafbf439bb252458"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-lpeg.lua"
-          ],
-          "09e9deb0bb8034f688ec3b0625f424dcec08814ce2678675e93eed16e5a9bbc1"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex"
-          ],
-          "345bd3c5f8b9555db731c36efdc082f19791e53198927bf9677c24c81d4c3d35"
-        ],
-        [
-          "file",
-          [
-            "report.tex"
-          ],
-          "1663d0227013b02969dfb877d422c74fce56451ed102972ca1e0942919315d7d"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-deb.lua"
-          ],
-          "ceaa4dcba6e8f2733a4b63c6ad71dfda74430403a923f563d04a44c2d9803bf3"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty"
-          ],
-          "65d5bc723633cf909cd8586b85c9dd0bc2714f74c0a1a569552aca4bfbdf2acd"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-io.lua"
-          ],
-          "3fea4f27145a77407f14dd995b45ef8b3d3411f2d8f33a2d08f3a5f20249e9f2"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-set.lua"
-          ],
-          "c4e52ead493f488afe7558d5c658d447c506f5d1a8594c10a75edcf1aa115440"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def"
-          ],
-          "cd15c4b1dbb2abbed8da459f3eb710c02374ea7136cef874b1d729591b7d063f"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex"
-          ],
-          "7a44cbf279ffde0d635425749e0c7f9760c381a8bcfea93f963eb4e486ace121"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-lua.lua"
-          ],
-          "c9fa32cee9281b66abe49272cb9fed1f6f6f76c9cabcf84c309ae7e6be7f2f0e"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex"
-          ],
-          "48418bc30695b366f5b2c6ed1333877c82dd549d9b477b50b287fc4aa43ea943"
+          "21cb774d4496c08bbf39b967fdb72cffbc5e7c39336c834841fbc717d8ab12ef"
         ],
         [
           "file",
@@ -1552,135 +705,58 @@
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryfpu.code.tex"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex"
           ],
-          "49e41054529161922b7be0b32d7f8e919cdd4d947898f3126ce66ba4ac049a9a"
+          "710d823b6d3ed70a96d8541492c13a12022c7b46bcf8bd36ac61a5d3cdd35db4"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex"
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm"
           ],
-          "a4cd7e5531850e0e874c1096838ec55d62bf413dd7488f5316f730ce833f42db"
+          "0eb2f13840155007c2d3c59b074322a3aa7358b9643aa314f3146468ae7f0806"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty"
+            "/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg"
           ],
-          "a3060c27e017df7a6da2c0e3ceab63a69470ffb0e869a7a7996e318a23df6e39"
+          "10db2171b6e267720299c10b9e84f92c5cf069941dbfe3760e198304e49d5324"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty"
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-dim.lua"
           ],
-          "d198f4c276516b07fcd6200246c0aec3380dca3bd64f872f4b2adf9c74d59183"
+          "44822d76cca2f09041d009aef5aa6f056bd7f1ea42b3669da4f0f02e8118b933"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex"
           ],
-          "9fb22b9357c935093e8c7c479704f53ab858376b49c52cf4b770a2afe4a6f26e"
+          "d21d8226c0320a28d947b7ca851d661cd76189a7e40d00fc544ddc26bb4161f4"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm"
+            "/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty"
           ],
-          "0ca13d421ac7133271aed7c935099ecf3d1d08ac9e15f81acb34a16564ab8a46"
+          "29bf0a43a57d8da4b3dc2fd722d34f80536f0e303cb1477d7cb5d2e29d949b8c"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex"
           ],
-          "e9947a0e86f27353f0e776403c4826675001210bd39d7114118a8864a57f7472"
+          "308419f41fbf780358f4d1d592d840b58341b61ab2cb0db03fb79a933300ace8"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-unicode.lua"
+            "outputs/toolChain/bitbakeToolChain.txt"
           ],
-          "cb87725f596bcb575e408d1bc33b3716fe0794131e05145d90c4e2aeb564129f"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-number.lua"
-          ],
-          "66692ce189dbcfe100f8a6e434213098869aa2d24637e538aa4d5cbf88f62353"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty"
-          ],
-          "4b6e94349101340e90db52d3042da0cd5868660ebde38d0267feda92a3cada31"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def"
-          ],
-          "6ddd57f4ecd4f8db99a472ea19467d6b874ae8f99523b2ef281dc8870d177d27"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex"
-          ],
-          "98a2c689bfca047572381ef24a731a6e27854907b1951f7af4112b9b84c0c2c7"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex"
-          ],
-          "1716f9f714e2aa34581ed285bd55edd5e39bb3c220737c7a335e21bcfd8d4fa2"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex"
-          ],
-          "75bfdc0c2a57bca3e7e173113f41d08529e3e3e657e942ee629d86d946807392"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex"
-          ],
-          "80452cfe945b536f2722eab984d2fe195562c1916e426340ad33fd1f6cda675d"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty"
-          ],
-          "25cdeb1d73e626e30ca4b84e85a513c7ccd563f160b379179cd1b91514a0cfa1"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm"
-          ],
-          "0890bccea1dd4d27f001ac30e86c63af35bc803e0557c35aafb1903c8d208e92"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-file.lua"
-          ],
-          "7c6b307918b6c980b7c5e544e34300a3864d83dc349134065ff517767f944e83"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex"
-          ],
-          "1418e6b1e62cc6362fa9477b13201f548805396b545c691dc5a017168b693506"
+          "542adca6650bfc93beed4103c9228dcf1a3c59bf4b99ebe6e9bf54c94a8796c6"
         ],
         [
           "file",
@@ -1692,93 +768,51 @@
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex"
+            "/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty"
           ],
-          "710d823b6d3ed70a96d8541492c13a12022c7b46bcf8bd36ac61a5d3cdd35db4"
+          "a131099305ddd9a08bbdc1932fb0e5b2353433e8c51222d81139a8598ce84f8a"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty"
+            "/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty"
           ],
-          "e7f33c9a6bc3bc915c516a607b1a856d0686d5c27b2fa1526c2f6149d2ba395c"
+          "44b7db2d7e9c6c27e548a12095b1a622cc95fb8af261138c1e05674f23863654"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex"
           ],
-          "70a177335bdac810df42cae06dea3ecdc6900a364dd023f3ff03b25087a5f065"
+          "5bf06df2ed79c876aa04b297594e85ad7f7f0f399ca967fd19b9dea7b0c8b077"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty"
+            "/usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf"
           ],
-          "f5a3a3b1d50e2d783a00555c2380cc7a8e4b7ee3241e521a9cd9067b6bf84f97"
+          "afd583598b9b60fa41ee9b86c2f501cc8da02620892cb372a528dba2d4942a25"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd"
+            "latex.out/report.out"
           ],
-          "620e40eff627d8b20559967f07489398d198951f5418f551cb0137ccbcb572df"
+          "cec7ecf8c9966790de7a90592975d954f2f0b96b2add49312021167b88bf9a80"
         ],
         [
           "file",
           [
-            "outputs/sourceYocto/imageLocations.txt"
+            "/usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7v.vf"
           ],
-          "c5cac8c1539675323910d7fb349f3f36d67a8cc1213a73b474295b1ee43e637b"
+          "08ccfe47440d3fc70abc582320b6e2b7f22bccf8844b2708fd57edc9a1e40c88"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex"
+            "/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def"
           ],
-          "70c56e4ccf3448f53cfbb90046ada2683dbf2eec1cf586562fe78bcfe146b3de"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex"
-          ],
-          "a22375071be85968f3b7489bd64c01f5317ca1ddadc0b7ab1f8257181d55a35b"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-os.lua"
-          ],
-          "eea8542f1b89bd71edab2fac6b70adeb25d394441543def722a86b52365a61e5"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex"
-          ],
-          "7c33f33973ca0d7616430c609808b85e88a0fad8b3058d1b6ea2ddfb34af95d7"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty"
-          ],
-          "bfc36b63817f1d17be7f628a77fe02d3ab36065fdc4fad060e7ce3a19f930203"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-lua.lua"
-          ],
-          "bad393953c821577935b1124a4f224c66a05ed90abb46fe36dd759b86d6d4d57"
-        ],
-        [
-          "file",
-          [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-sto.lua"
-          ],
-          "ff4e430a2df0372dbbb99644738fdc5d657da6f303a7dafc9c13b1781c404f43"
+          "af0be40332700887b8a74b198c726ed4aac4f9e3c84d6b43097b8d6475ddf13c"
         ],
         [
           "file",
@@ -1790,23 +824,135 @@
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty"
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm"
           ],
-          "d593ce32962f09494d212c176af0e739e51d89d65032c5a0c1b82c543badbccb"
+          "2e60a0188012d87a12fe619279439710f33bc28fe60d686c974ff1cf334de558"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code.tex"
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-deb.lua"
           ],
-          "e1716e13b39cfa019222e6ac2a37c3ef25557a6b5a07309ba49b0896b34c8f20"
+          "ceaa4dcba6e8f2733a4b63c6ad71dfda74430403a923f563d04a44c2d9803bf3"
         ],
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-table.lua"
+            "outputs/sourceYocto/imageLocations.txt"
           ],
-          "7e9e8347ac06b8fda2587e5059952d8ba81f3602d26f15a25f4db2c5baac7b4a"
+          "c5cac8c1539675323910d7fb349f3f36d67a8cc1213a73b474295b1ee43e637b"
+        ],
+        [
+          "file",
+          [
+            "outputs/toolChain/toolChainInstall.txt"
+          ],
+          "27f2cdbeef0950ba72015645430fa95cb780894f37b6dbf6b1b03cab6d7c3a5e"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg"
+          ],
+          "2f02b2ce246c697cd5fb01bd833c348d45d7d7add66587958a56254ffd011807"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-compat.lua"
+          ],
+          "93c0a38d03278e68fb2aa3f7a1cea090555ddb981225a5771530e678d28301ba"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd"
+          ],
+          "9fb22b9357c935093e8c7c479704f53ab858376b49c52cf4b770a2afe4a6f26e"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm"
+          ],
+          "44450eccf316fb430cff368df7884aa3b8027f80745b77f8b48ea9d53b66d7e4"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-boolean.lua"
+          ],
+          "9d84c6eb409ad3a0a97a36a245aa39d9bbc67dd093395eb3c77ae0d5ad7dd685"
+        ],
+        [
+          "file",
+          [
+            "outputs/sourceYocto/relevantPartitionInfo.txt"
+          ],
+          "6716efb75789ad6ff22b901e6af9cada14c571c036abd28ec67662062026899c"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-sto.lua"
+          ],
+          "ff4e430a2df0372dbbb99644738fdc5d657da6f303a7dafc9c13b1781c404f43"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex"
+          ],
+          "6da3a9b31c9fbbe9a0a98fa3f292dd11ec6133585873685b1c07b606491a8295"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/unicode-data/CaseFolding.txt"
+          ],
+          "97b43ed3f4b80572c2114200e5e43a6b923d984c74a6caaf27de5b8462c04cb0"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def"
+          ],
+          "cd15c4b1dbb2abbed8da459f3eb710c02374ea7136cef874b1d729591b7d063f"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty"
+          ],
+          "9f1703891932406a3244d366aa5aa1dcdb3b80c82c384338401f5424bd5a85f2"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-str.lua"
+          ],
+          "b7e33fcf10e92df42727cfa86661834cf2b37423cca4e047f65ad87958f3b43f"
+        ],
+        [
+          "file",
+          [
+            "inputs/imagePrepNANDFlash/setup.txt"
+          ],
+          "ceab5112742ee94031f4b71fa1bf8d415eff0332c98bcc2f320c5cc72474867d"
+        ],
+        [
+          "file",
+          [
+            "inputs/toolChain/toolchainInstall.txt"
+          ],
+          "9d89b59ce151bccd3b251d99f89f90f9e48f1730d65de43805ea2879786fb918"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-luatex.def"
+          ],
+          "be4fb3f42b4ce8768d5eacc85f14d89e14ee5ba4407ef4863a52dfcc73e0ebe1"
         ],
         [
           "file",
@@ -1818,9 +964,177 @@
         [
           "file",
           [
-            "/usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex"
           ],
-          "5be32b63aaac25452859ffb6ed8bdd6bc729730f6808de90e750761b63beaf52"
+          "1418e6b1e62cc6362fa9477b13201f548805396b545c691dc5a017168b693506"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-number.lua"
+          ],
+          "66692ce189dbcfe100f8a6e434213098869aa2d24637e538aa4d5cbf88f62353"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex"
+          ],
+          "b663e44e1d780fbfdd2adb8d76349281ac7d6211a7f3175ffa34d65a1fecbb89"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd"
+          ],
+          "70d4142fc4ab4e8bbcd0b29b93a9a6e30029b57f5934285d13ddba5b68314532"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex"
+          ],
+          "53a71c12e8009393c57fd0161e0269ed880f42f0c454d5a183ea25d901b22877"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-prs.lua"
+          ],
+          "fc696a5cba9ffcc2a919b98ef584fb5fa41c35cb48670d69207ed1657118e346"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm"
+          ],
+          "1f6f28415cf1c948e668b20ebd658b6d443c37b2cb6ff6b5d8a84d618f4ca7d7"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex"
+          ],
+          "971095ac4987016804e610f47f9f800fa6278d5cf62358d2e3b2adbd15217ef2"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm"
+          ],
+          "f84c5ee62dab65954e4bc32c9bfce95ac76d0e25866b7282b3237136fbe0d675"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex"
+          ],
+          "400e1b4fa4deb066483f40ddeca5bcb5f71dd6b396725b1c79ea0868cd1fe180"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg"
+          ],
+          "feb91e48789a21e4acced98e952c77a2e2cf4a77e01bf147b59fa56a1b3f2008"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-jsn.lua"
+          ],
+          "4b64ef41a7750767a20c0b64fe0ff7250cc4c978481548b73074d8d346603a4d"
+        ],
+        [
+          "file",
+          [
+            "latex.out/report.aux"
+          ],
+          "5f4db8e0559f1e0cfa7601e4bd8bc4eb86ee80622cd6be6b274d6fd490921b52"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex"
+          ],
+          "a98c9cc11cd6fe47619479d05f9650953f7f13022648d5a20bd73dc664c83ef8"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg"
+          ],
+          "0b863b120a22f8bf4f8800c28f49c6a61ee4b2cfc25ae94fbf2e5bd46af61de7"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty"
+          ],
+          "cb353b58769449f756c5c16f9d355c90c0714d1da1228bf912c3a5b208b4890b"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex"
+          ],
+          "12dfa15deed098538d51fb665a4f4ff759d8ef63d9216b38c19e87fbb0b476dc"
+        ],
+        [
+          "file",
+          [
+            "outputs/sourceYocto/directoryStructure.txt"
+          ],
+          "d8a29e7b7e433dc7dd071475b73dc0ed936d824b6be586dd4e860495c20a5fc5"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex"
+          ],
+          "d86a0c9963f42d9e268d51eb1923fba481f36f5d3ce86f56ef20900015dda18d"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib8.tfm"
+          ],
+          "e9fcf027b39859a8e6004061d2bf700ecec237cfc9f7e88bc15e5d2e99dc4fbf"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty"
+          ],
+          "eceb84f9f743071017f78bb6a611b0a7393aea644ad87ec8ea9076d82a71c961"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex"
+          ],
+          "86843251927c29a021eac1635ee8650cfc06265281b50441d8cb6f67bb8504ee"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex"
+          ],
+          "9aed7f857d26e6284d719ef379a2feb84812fa6e9872e559c6813b1b6c45b8c0"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex"
+          ],
+          "07be13e1beae92a928fba8af7db1ac68e5ea7c54e7e60b61f67633958d65b234"
+        ],
+        [
+          "file",
+          [
+            "latex.out/report.toc"
+          ],
+          "cbc7dd24e6a853c23132744fadb8e8b59baf2c395926fd753f96b782cdc2513b"
         ],
         [
           "file",
@@ -1832,31 +1146,809 @@
         [
           "file",
           [
-            "latex.out/report.pdf"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex"
           ],
-          "b3a682515315d09ee411828294c6883c5cc088a055b8f660728e06d3c022b3c0"
+          "b24fa9687d122944cb2709737d6fb9e30fb2682df2ad34621593c0abeb6856ef"
         ],
         [
           "file",
           [
-            "latex.out/report.fls"
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex"
           ],
-          "bd7f1718cc6c88c9c59ec132425aa45c56c5f442ff8b098d4e624a26794b1bf4"
+          "7a44cbf279ffde0d635425749e0c7f9760c381a8bcfea93f963eb4e486ace121"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex"
+          ],
+          "3cddb47e11deabeb81abfd328c6b4183a2ae1cc6068060d2e4cbc82147a6209e"
+        ],
+        [
+          "file",
+          [
+            "inputs/sourceYocto/demoGUI.txt"
+          ],
+          "7fc7fc3aaca45ee65eba7d790d737b65da74d0b555f53a3b058d2d892669438b"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex"
+          ],
+          "f4d79f2276c7d432c79c06bf020aa051ea77bfc23c060c171f7c6db36018044d"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty"
+          ],
+          "d646b145cc057a901bcf998f39c6b6300e4c8f9510f719a6c89039dfee43ea12"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty"
+          ],
+          "b3541c333fda15a60781b5515e5146d95d9db0311e6845921f020d83c4999ac1"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-tab.lua"
+          ],
+          "a45a4ea8c4d7ae146d39ab28987de15f3db39de9f310d8075b16c23e93b7a874"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty"
+          ],
+          "987f70ae471d8121ea2fa3b2aa8d04d833b63e031154200a1cec924f3402c448"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt"
+          ],
+          "e9947a0e86f27353f0e776403c4826675001210bd39d7114118a8864a57f7472"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex"
+          ],
+          "c8d6ef5b7d5e348882c00cc748a0e710458a7e7cae20b8e7d36a2b002e488657"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex"
+          ],
+          "81036a69eba7d8b697c90f015009c1f585831025e1614e8a582bc6361583979d"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty"
+          ],
+          "252108ffe92ffcefcbab0b2d959f74a485085d4d2a39781597a5ad797d190239"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex"
+          ],
+          "5278b8a9cdfac477c9a77bbfea43d9513440942d2de7be9666243f08cc87b589"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty"
+          ],
+          "d96edb812fa1145a27152b72c556ccdd523c9bb840db26b7d6be68cbfd6c5df8"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty"
+          ],
+          "f88f0ba329d6a8ce6862c01e31617e9bfba24c8f27f6ae0107adac12f3c4e9d4"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex"
+          ],
+          "e1b48706b7222c03b8b98bfe13312cc56cbb8c321ab0f2e13e525ddf24cd740d"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex"
+          ],
+          "a22e63640142a4a0e0d3f6276525c80ee6cff95aea9dc9092cd094d281845673"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex"
+          ],
+          "aa08aa18cb2b0a1d5cfbaee7f9759a8082b63238cf775eb7a131fb04906173f7"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty"
+          ],
+          "2c42226e752f45346e8ac1671bd2f9fbbbe300d7ae4cb6929b332883666732fe"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm"
+          ],
+          "124bf319cc661280955868642212f450b0bedd90eaeecc3b359a598a4fe35649"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex"
+          ],
+          "a22375071be85968f3b7489bd64c01f5317ca1ddadc0b7ab1f8257181d55a35b"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls"
+          ],
+          "21c148434e0986405bcbd765b7d121d9569dcca9f1081836cd0ab396fb70cc8d"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def"
+          ],
+          "8c7825cad56f8c83604b497147c6cb4549b41be2c962a90aadaa5ec6a5cfe662"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty"
+          ],
+          "a8d9b79a8850f144a89a1e8391ec01459f0b68326dfaec48d601b304c6d05410"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd"
+          ],
+          "e761b5f6b64d79454248b561cb8e8f463eead7a7ec13e7df738404986bd98e30"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-os.lua"
+          ],
+          "eea8542f1b89bd71edab2fac6b70adeb25d394441543def722a86b52365a61e5"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-gzip.lua"
+          ],
+          "8144cffea62a9e46e5a7b6aa1ce85968dc3ba5cbfbd43ef8a9666e59930d4bde"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex"
+          ],
+          "c8a509eab6e1b63a6697819d85b2737ea6b8e7ca93006855eafbf439bb252458"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-table.lua"
+          ],
+          "7e9e8347ac06b8fda2587e5059952d8ba81f3602d26f15a25f4db2c5baac7b4a"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex"
+          ],
+          "521c3db6439ff99c2dbcba5384f8006824ab4a4af28f86785ec9930968272536"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty"
+          ],
+          "ac51da6d4dc7fa924548314952705f04110e143eba3b1116f55959e5a90e56d9"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm"
+          ],
+          "6dab44c885b7cbf567771d9cfa565f3df34d0e8124132b9b6f9fdc496a1c2eda"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex"
+          ],
+          "d48a5679ca97f921aa11c6ac0aea9773f8791ab8cf71399ed731f44236d04eed"
+        ],
+        [
+          "file",
+          [
+            "inputs/sourceYocto/downloadDir.txt"
+          ],
+          "af71aa398639565d88d7165890e10f428a31daafd8797a573f1980614f314d3e"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm"
+          ],
+          "9566eeab4621d895d1fa22221fb62f7b6ccffa44845078fa2037b465ce67e06b"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm"
+          ],
+          "38ded79d7cce07fa28921f37f6b88e67bd86951a3e5af709c219d63454786ce1"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex"
+          ],
+          "95a51f83687b84aabfe25d1ac611f4a15550651ee321ded34abd71bbb4795062"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm"
+          ],
+          "0ca13d421ac7133271aed7c935099ecf3d1d08ac9e15f81acb34a16564ab8a46"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty"
+          ],
+          "25cdeb1d73e626e30ca4b84e85a513c7ccd563f160b379179cd1b91514a0cfa1"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex"
+          ],
+          "80452cfe945b536f2722eab984d2fe195562c1916e426340ad33fd1f6cda675d"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex"
+          ],
+          "7c33f33973ca0d7616430c609808b85e88a0fad8b3058d1b6ea2ddfb34af95d7"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex"
+          ],
+          "7500035995e77294c34795fc8fc722bc06c25fe56fe939c6fcbf30a8db91e10e"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex"
+          ],
+          "e305db8af972ff438979880d24427a22eb2cfb6bd1dbd875952e257610589d6b"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm"
+          ],
+          "adfe5cd6d96609eee450dfb2bd3c63b57c635c2583ad3e739510a3eab1a08aa9"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex"
+          ],
+          "79be70eba4a22b8ef513fc91e1c7b555350b7b938c95e71b8b588fda10f3f74e"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex"
+          ],
+          "3ce60927a0c2bf64d57ee1e114e1385d292e4c6d55c73a44bfae1acdec8c77bc"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-math.lua"
+          ],
+          "67032addf79286bfe579a5349f0198f2a9184f6941c13c66a15cca5aea4cb9e0"
+        ],
+        [
+          "file",
+          [
+            "/var/lib/texmf/web2c/luatex/lualatex.fmt"
+          ],
+          "3cbc79e6b9ec135fd7cf757ec4913dbbb2a324f27c228bca75ec8946e83eebfc"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex"
+          ],
+          "ff1bc6c9936c93f1a959b138314d8307c452dc82a88f3c9ea42af40b0b01817f"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex"
+          ],
+          "4c71ea64f5b3582f1d6346f9f9a782da20ed7a4c76e00ee1f73ee23186a1db9b"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib9.tfm"
+          ],
+          "84c01086ad78e02bcaea856054295be1a0896b148a05ef1476aa6f7da240da86"
+        ],
+        [
+          "file",
+          [
+            "inputs/imagePrepNANDFlash/NANDImages.txt"
+          ],
+          "e8c2c138784ce55c15be9db6a7ad62d6f03bff329ff162f9d460d630aedda87f"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryluamath.code.tex"
+          ],
+          "7ea16b13280860a8c0d57c4d7b6635e3cedb2be150868259333ab5e6d4b08a1f"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf"
+          ],
+          "83300c3d0fba85f3a970272217b5f9576262fe7fdb98599b81f9f8c3370cd464"
+        ],
+        [
+          "file",
+          [
+            "inputs/toolChain/toolchainLaunch.txt"
+          ],
+          "e23c2300722fa38ca94b6d258ab13a6b40cde1952f57cd6d8f81cd181e149c6e"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex"
+          ],
+          "70c56e4ccf3448f53cfbb90046ada2683dbf2eec1cf586562fe78bcfe146b3de"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm"
+          ],
+          "f6ae57a90901e8eb4d5e3b5067fb6ed640b4660ab76cb617f3b9ffb07ef63aaf"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex"
+          ],
+          "3855b614c21e3bba1c6aac234d3f1d14d3811a8935c281c56319bf73d2fa99f9"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def"
+          ],
+          "6ddd57f4ecd4f8db99a472ea19467d6b874ae8f99523b2ef281dc8870d177d27"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty"
+          ],
+          "9a712c64bd704296da7b1b6a883d2c75a072810f6d0c40f74b791f69da1c230a"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-unicode.lua"
+          ],
+          "cb87725f596bcb575e408d1bc33b3716fe0794131e05145d90c4e2aeb564129f"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryfpu.code.tex"
+          ],
+          "49e41054529161922b7be0b32d7f8e919cdd4d947898f3126ce66ba4ac049a9a"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex"
+          ],
+          "70a177335bdac810df42cae06dea3ecdc6900a364dd023f3ff03b25087a5f065"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty"
+          ],
+          "d2709be806dc7d5f54daa9a16022ba1451b1322954751b98e38cfad0cc107450"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm"
+          ],
+          "e7b284f0ee98b7773be9b57ca652b4bb14391370509a424b5b62b06b5cae86e4"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/unicode-data/UnicodeData.txt"
+          ],
+          "52423e4d7492167b62f518f68d54db88930abbbff7f11edfcaec8f726498cab1"
+        ],
+        [
+          "file",
+          [
+            "/home/anders/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc"
+          ],
+          "1a6c0fab627cf63df1f742c15431eb9416778649119782f4a7920ff3fc02e900"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf"
+          ],
+          "fcd1204fd8e3b8615402e18d7304474ba214fdb3677069779169e2ba4e3dba7d"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex"
+          ],
+          "1237644530b9e7208dc7d3e7732fc28f14299b87b9587ada0ec8a3594df5b8f7"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex"
+          ],
+          "2edd88590c03d27d0c987c4ac909449f577732b793e7ded896ae151b09b677e8"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.coltype.code.tex"
+          ],
+          "0c1ecf023aa8465d1df318468b7e4f14439f5223f2c3e10cf5dbf4ca11639bb6"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty"
+          ],
+          "2166b8755edd4390ddc9bf7ddbeac6a508b3aa5164cb1ced94afab6339a06ba8"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty"
+          ],
+          "9d863420d3bfb94d423abf1f7e7f934cee49aa1295ace3ece3dd4711d4da793c"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty"
+          ],
+          "139e2cee0da9394495fdb43ac578dfcbfa1dadecf1650c0edfa9fbb20d641b35"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex"
+          ],
+          "345bd3c5f8b9555db731c36efdc082f19791e53198927bf9677c24c81d4c3d35"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii"
+          ],
+          "5dd3675b88c7b61d3703e6bf35ed75623acc6b163dff7b1477b485cee8ad71cb"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty"
+          ],
+          "2b033ea8b5438fc4c736b14785a3bdd394100ffa93b783e5907a786421e0978a"
+        ],
+        [
+          "file",
+          [
+            "outputs/sourceYocto/bitbake_image_output.txt"
+          ],
+          "59d7063d82d3f2a563641278244b86cbc9d30680fa759ce2939366ad4dda8c0e"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm"
+          ],
+          "87f2d8981927644cbecaf3d639e96e348ea4e7be49d8804468bd8ba9ff3f5244"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex"
+          ],
+          "cf795a8fd8724b06a5b3901626e83894e2ed6725d1763dc0b664175687cd33ae"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex"
+          ],
+          "38442c559fd7e7be2a812d4d809940795fc9535e6d571dbf52c5a0493b26f998"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex"
+          ],
+          "4ff2a069f987606fbafe4bc21b21aa2e539a3b9e597e8868b2764603189a17ea"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-sta.lua"
+          ],
+          "2fce90a12e95a2dd83daa9ee18ee5f5446256af5e5d6c1094355a508663dd65c"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty"
+          ],
+          "87e8f734e04bcc0dc79d118aac786e7cd5879442b4605dc18d6863b49c3d7b55"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code.tex"
+          ],
+          "e1716e13b39cfa019222e6ac2a37c3ef25557a6b5a07309ba49b0896b34c8f20"
+        ],
+        [
+          "file",
+          [
+            "inputs/imagePrepNANDFlash/linux.txt"
+          ],
+          "e4b8e1693a4330f73181edb865e51d403ea6753a7f2987df6ae9f46e90378872"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-fil.lua"
+          ],
+          "600e812b79af90583d26aa22c2f2cc62fba608d82f0fbc691ba271524c32cf86"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm"
+          ],
+          "e0d35a528c7bcce258e09c9a8d5fd82d552ccab33293dbfdd3b57def660f4ab3"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty"
+          ],
+          "bfc36b63817f1d17be7f628a77fe02d3ab36065fdc4fad060e7ce3a19f930203"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm"
+          ],
+          "0421852292fb6c7af0fdc2f55167b2ce8bd2e3fcdc0af341fefef5c6fe00236d"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb"
+          ],
+          "62ee8cef552017551cd3e026a483e700730103eceaad959c87b7730017f59cff"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-md5.lua"
+          ],
+          "b27bef718e3dbfdbda0e49823eee23dfe824143886e67d65b8d8ec5625203c62"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex"
+          ],
+          "ef606fdf2ffc6197b9e1037860e1fe788cfa1aa3bf271a986dd6662b2e6526ca"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty"
+          ],
+          "51422f19007c112aefd7eafc16c2e11b0b864ad229f7fe0502b846dea7c0dc80"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty"
+          ],
+          "9fab30c7e6c5ef15988dbbaa40069a48bf748479cc0eea1211be7f9fbee2b0e8"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex"
+          ],
+          "38323f82b1d7a140db59ccf1a97c53264bbd39e9ab0e80896063c8c23cd090d3"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm"
+          ],
+          "9337768de9c16f039408050117b34b1b857c22268be1f0c8e0cecaa65b4c722c"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty"
+          ],
+          "65d5bc723633cf909cd8586b85c9dd0bc2714f74c0a1a569552aca4bfbdf2acd"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm"
+          ],
+          "0890bccea1dd4d27f001ac30e86c63af35bc803e0557c35aafb1903c8d208e92"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/luatex/lualibs/lualibs-util-lua.lua"
+          ],
+          "bad393953c821577935b1124a4f224c66a05ed90abb46fe36dd759b86d6d4d57"
+        ],
+        [
+          "file",
+          [
+            "variscite.jpg"
+          ],
+          "779e9550e53c857f12dffb1910373624ea492235c9d65fc98e27f4160b42432d"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty"
+          ],
+          "f5a3a3b1d50e2d783a00555c2380cc7a8e4b7ee3241e521a9cd9067b6bf84f97"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty"
+          ],
+          "7c96617103e4523b4a74b114c859d46fc7bdde8beb93528869af8e81aed8c307"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex"
+          ],
+          "bf63466f51694763c4f879979c210feca33d7b9bd05d993807864ba65ad154fa"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex"
+          ],
+          "a4cd7e5531850e0e874c1096838ec55d62bf413dd7488f5316f730ce833f42db"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex"
+          ],
+          "0f3adf7494f68b075f3de3c9b97e0c7f0e3267dc65c45b685247ea839bb1b1b6"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm"
+          ],
+          "e442c5487f84df70218ff37f775c87060856f5b6e04c011b6cadbbadfcf46645"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex"
+          ],
+          "48418bc30695b366f5b2c6ed1333877c82dd549d9b477b50b287fc4aa43ea943"
+        ],
+        [
+          "file",
+          [
+            "/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty"
+          ],
+          "e7f33c9a6bc3bc915c516a607b1a856d0686d5c27b2fa1526c2f6149d2ba395c"
+        ],
+        [
+          "file",
+          [
+            "/home/anders/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc"
+          ],
+          "a6a05602f2ec85cdc9b99841fabc71fe6aab121ce91f3a8406d173bfbf8eb4d4"
         ],
         [
           "file",
           [
             "latex.out/report.log"
           ],
-          "9ae41ba3a7f4d42a13bcaec3bbbc9a1c1b1b8daa7f0cd3b6f064fc9f1986cf24"
+          "f61bf7b154bda61a3df6507f283ff878b930ed285baf2ac01bac7f4a79137fe2"
+        ],
+        [
+          "file",
+          [
+            "latex.out/report.pdf"
+          ],
+          "5cd4e9bba8018900622ac15cffb55ae5626b2f909edcb1a4b93205b65fcdf852"
+        ],
+        [
+          "file",
+          [
+            "latex.out/report.fls"
+          ],
+          "f0022bcaee5331b8e4f0ce6617b3d9f3682396644eb9f9e408d76cec614a9f9b"
         ]
       ],
       "output_files": {
-        "latex.out/report.pdf": "b3a682515315d09ee411828294c6883c5cc088a055b8f660728e06d3c022b3c0",
-        "latex.out/report.fls": "bd7f1718cc6c88c9c59ec132425aa45c56c5f442ff8b098d4e624a26794b1bf4",
-        "latex.out/report.log": "9ae41ba3a7f4d42a13bcaec3bbbc9a1c1b1b8daa7f0cd3b6f064fc9f1986cf24",
-        "latex.out/report.aux": "821453e3a6570619881cb0e309e16deac436957fec7e5bb99365a7a08837da2a",
-        "latex.out/report.out": "31033b1622af137c274c0fc2a5a3131cdf2a6ff682630488483930d50415f96e"
+        "latex.out/report.log": "f61bf7b154bda61a3df6507f283ff878b930ed285baf2ac01bac7f4a79137fe2",
+        "latex.out/report.pdf": "5cd4e9bba8018900622ac15cffb55ae5626b2f909edcb1a4b93205b65fcdf852",
+        "latex.out/report.toc": "cbc7dd24e6a853c23132744fadb8e8b59baf2c395926fd753f96b782cdc2513b",
+        "latex.out/report.out": "cec7ecf8c9966790de7a90592975d954f2f0b96b2add49312021167b88bf9a80",
+        "latex.out/report.aux": "5f4db8e0559f1e0cfa7601e4bd8bc4eb86ee80622cd6be6b274d6fd490921b52",
+        "latex.out/report.fls": "f0022bcaee5331b8e4f0ce6617b3d9f3682396644eb9f9e408d76cec614a9f9b"
       },
       "extra": {
         "jobname": "latex.out/report",
@@ -1879,28 +1971,29 @@
           [
             "latex.out/report.pdf"
           ],
-          "b3a682515315d09ee411828294c6883c5cc088a055b8f660728e06d3c022b3c0"
+          "5cd4e9bba8018900622ac15cffb55ae5626b2f909edcb1a4b93205b65fcdf852"
         ],
         [
           "file",
           [
             "report.pdf"
           ],
-          "b3a682515315d09ee411828294c6883c5cc088a055b8f660728e06d3c022b3c0"
+          "5cd4e9bba8018900622ac15cffb55ae5626b2f909edcb1a4b93205b65fcdf852"
         ]
       ],
       "output_files": {
-        "report.pdf": "b3a682515315d09ee411828294c6883c5cc088a055b8f660728e06d3c022b3c0"
+        "report.pdf": "5cd4e9bba8018900622ac15cffb55ae5626b2f909edcb1a4b93205b65fcdf852"
       },
       "extra": null
     }
   },
   "clean": {
-    "latex.out/report.out": "31033b1622af137c274c0fc2a5a3131cdf2a6ff682630488483930d50415f96e",
-    "latex.out/report.pdf": "b3a682515315d09ee411828294c6883c5cc088a055b8f660728e06d3c022b3c0",
-    "latex.out/report.log": "9ae41ba3a7f4d42a13bcaec3bbbc9a1c1b1b8daa7f0cd3b6f064fc9f1986cf24",
-    "latex.out/report.aux": "821453e3a6570619881cb0e309e16deac436957fec7e5bb99365a7a08837da2a",
-    "latex.out/report.fls": "bd7f1718cc6c88c9c59ec132425aa45c56c5f442ff8b098d4e624a26794b1bf4",
-    "report.pdf": "b3a682515315d09ee411828294c6883c5cc088a055b8f660728e06d3c022b3c0"
+    "latex.out/report.log": "f61bf7b154bda61a3df6507f283ff878b930ed285baf2ac01bac7f4a79137fe2",
+    "latex.out/report.pdf": "5cd4e9bba8018900622ac15cffb55ae5626b2f909edcb1a4b93205b65fcdf852",
+    "latex.out/report.toc": "cbc7dd24e6a853c23132744fadb8e8b59baf2c395926fd753f96b782cdc2513b",
+    "latex.out/report.out": "cec7ecf8c9966790de7a90592975d954f2f0b96b2add49312021167b88bf9a80",
+    "latex.out/report.aux": "5f4db8e0559f1e0cfa7601e4bd8bc4eb86ee80622cd6be6b274d6fd490921b52",
+    "latex.out/report.fls": "f0022bcaee5331b8e4f0ce6617b3d9f3682396644eb9f9e408d76cec614a9f9b",
+    "report.pdf": "5cd4e9bba8018900622ac15cffb55ae5626b2f909edcb1a4b93205b65fcdf852"
   }
 }

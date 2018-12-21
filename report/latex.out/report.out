@@ -28,7 +28,9 @@
 \BOOKMARK [2][-]{subsection.4.1}{prerequisits}{section.4}% 28
 \BOOKMARK [2][-]{subsection.4.2}{Build toolchain}{section.4}% 29
 \BOOKMARK [2][-]{subsection.4.3}{Build complete SDK}{section.4}% 30
-\BOOKMARK [1][-]{section.5}{appendix}{}% 31
-\BOOKMARK [2][-]{subsection.5.1}{bitbake of fslc image}{section.5}% 32
-\BOOKMARK [2][-]{subsection.5.2}{bitbake of toolchain}{section.5}% 33
-\BOOKMARK [3][-]{subsubsection.5.2.1}{bild SDK}{subsection.5.2}% 34
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Install toolchain/SDK}{subsection.4.3}% 31
+\BOOKMARK [2][-]{subsection.4.4}{Use of toolchain/SDK}{section.4}% 32
+\BOOKMARK [1][-]{section.5}{appendix}{}% 33
+\BOOKMARK [2][-]{subsection.5.1}{bitbake of fslc image}{section.5}% 34
+\BOOKMARK [2][-]{subsection.5.2}{bitbake of toolchain}{section.5}% 35
+\BOOKMARK [3][-]{subsubsection.5.2.1}{bild SDK}{subsection.5.2}% 36

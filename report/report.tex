@@ -75,6 +75,14 @@ VAR-SOM-MX6 Yocto Sumo release
 }
 
 \author{Anders Gjolme Eriksen}
+\maketitle
+
+\begin{figure*}[hbtp]
+\includegraphics[scale=0.4]{./variscite.jpg}
+\end{figure*}
+
+\tableofcontents
+\newpage
 
 \section{introduction}
 
@@ -249,7 +257,16 @@ build development environment with the required libraries in addition to the bas
 runoutput in Appendix~\ref{app:toolchainSDK}
 Output will be located in tmp/deploy/sdk/.
 
+\subsubsection{Install toolchain/SDK}
+Installation is done with
+\lstinputlisting{./inputs/toolChain/toolchainInstall.txt}
+Returning:
+\lstinputlisting{./outputs/toolChain/toolChainInstall.txt}
 
+\subsection{Use of toolchain/SDK}
+\lstinputlisting{./inputs/toolChain/toolchainLaunch.txt}
+
+\newpage
 \section{appendix}
 Percentage completion of runs demarkated in ``\#'' signs. They do not follow the linebreak convention.
 They do not follow the linebreak convention.\ there is not meaningful information in these lines. They

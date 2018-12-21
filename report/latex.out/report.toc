@@ -1,0 +1,36 @@
+\contentsline {section}{\numberline {1}introduction}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}setup}{3}{subsection.1.1}
+\contentsline {section}{\numberline {2}VAR-SOM-MX6 Yocto Sumo 2.5 based on FSL Community BSP 2.5 with 4.9.88\_2.0.0-ga Linux release}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}build x11 GUI demo image}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}console-only demo image}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Local conf customization}{4}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Change download directory.}{4}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}BuildResults}{4}{subsubsection.2.3.2}
+\contentsline {subsection}{\numberline {2.4}create bootable SD card}{4}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}SD structure.\ map of SD card structure after partitioning.}{4}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Yocto pre-built}{4}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Create extended SD card}{5}{subsubsection.2.4.3}
+\contentsline {subsection}{\numberline {2.5}Boot board through SD card}{5}{subsection.2.5}
+\contentsline {subsubsection}{\numberline {2.5.1}Setting boot mode. 6.1.1 har instructions for MX6 custom board.}{5}{subsubsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.2}Automatic device tree selection in U-boot. Default enabled.}{5}{subsubsection.2.5.2}
+\contentsline {subsection}{\numberline {2.6}Flash images to NAND}{5}{subsection.2.6}
+\contentsline {section}{\numberline {3}Yocto NAND Flash Burning}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Introduction}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}NAND flash structure}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}eMMC structure}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Yocto built binaries for NAND flash}{6}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}installing Yocto binaries}{6}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}images location}{6}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Preparing images for NAND flash}{7}{subsubsection.3.5.2}
+\contentsline {subsection}{\numberline {3.6}installing Yocto binaries}{7}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Images locations}{8}{subsubsection.3.6.1}
+\contentsline {section}{\numberline {4}Yocto toolchain installation for out of Yocto builds}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}prerequisits}{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Build toolchain}{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Build complete SDK}{9}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Install toolchain/SDK}{9}{subsubsection.4.3.1}
+\contentsline {subsection}{\numberline {4.4}Use of toolchain/SDK}{9}{subsection.4.4}
+\contentsline {section}{\numberline {5}appendix}{10}{section.5}
+\contentsline {subsection}{\numberline {5.1}bitbake of fslc image}{10}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}bitbake of toolchain}{11}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}bild SDK}{14}{subsubsection.5.2.1}
